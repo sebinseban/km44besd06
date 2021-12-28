@@ -1,4 +1,4 @@
-# km44besd06
+# KM44BESD06
 
 "Sebin Sebastian" Lab Assignments Repo
 
