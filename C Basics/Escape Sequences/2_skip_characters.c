@@ -17,5 +17,6 @@ int main()
     printf("Enter three marks that you received: ");
     scanf("%d %d %d", &mark1, &mark2, &mark3);
     printf("The three marks are %d, %d and %d.\n", mark1,mark2,mark3);
+    //ide
 
 }
