@@ -1,10 +1,12 @@
 //sebin sebastian
+//escape sequences
 //just using every escape character and explaining what each escape character does
 
 
 #include<stdio.h>
 int main()
 {
+    
     printf("Hello, wor\b\bld\n"); // \b usage, the cursor will move back 2 times in this case
     printf("Hi \a \n");           // \a will produce an audible alert, doesnt support on all machines
     printf("Put a tab \t here\n");// \t will produce a tab (4 spaces)     \n is used for newline, will move the cursor to newline
@@ -14,6 +16,6 @@ int main()
     printf("\'put this line in single qoutes\'\n"); // \' is how you produce a single qoute inside printf function
     printf("\"put this line in double qoutes\"\n"); // \" is how you produce a double qoute inside printf function
     printf("How to print a question mark like this \?\n");   // \? is how you produce a question mark inside printf function
-    //printf("You can print hexadecimal also via printf. Hexcode :\x11\n");
-    //printf("You can print octal also via printf. Octal: \nnn");
+    //printf("You can print hexadecimal also via printf. Hexcode :%d", x); //doesnt work
+    //printf("You can print octal also via printf. Octal: \nnn");          //doesnt work
 }
