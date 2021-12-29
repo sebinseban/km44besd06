@@ -12,6 +12,7 @@
         45
         4
 
+
 ##2.VARIABLES (27/12/2021) (ASSIGNMENT 1)
 
 1) List out the format specifiers for different datatypes.
