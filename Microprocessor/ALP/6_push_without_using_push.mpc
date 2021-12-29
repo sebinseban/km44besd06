@@ -1,3 +1,8 @@
+#sebin sebastian
+#Write an ALP if there is no PUSH instruction and implement same with two instructions 
+which perform same operation as PUSH B?
+
+
 MVI B 23h
 MVI C 77h
 

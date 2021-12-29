@@ -1,3 +1,9 @@
+#sebin sebastian
+#Write an ALP to perform division of two numbers without using DIV instruction first & 
+second number stored in 4000H & 4001H memory locations respectively and the result 
+stored in 6000H?
+
+
 MVI C 00h
 LDA 4001h
 MOV B A

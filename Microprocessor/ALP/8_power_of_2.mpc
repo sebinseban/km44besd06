@@ -1,3 +1,9 @@
+//sebin sebastian
+//Write an ALP to find the given number is power 2 and load number in 4000H memory 
+location the result stored in 6000H? (If given no is power of 2, store 22H at memory location 
+6000
+
+
 MVI B 00h
 MVI C 08h
 LDA 4000h

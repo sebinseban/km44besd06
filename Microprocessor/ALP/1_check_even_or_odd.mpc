@@ -1,3 +1,8 @@
+#sebin sebastian
+#Write an ALP to find given number is odd or even and load number in 4000H memory 
+location the result stored in 6000H. If even, store 22H at memory location 6000 otherwise 
+store 11H at memory location 6000.
+
 LDA 4000h
 ANI 01h
 JZ EVEN

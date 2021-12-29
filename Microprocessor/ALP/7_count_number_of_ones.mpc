@@ -1,3 +1,8 @@
+#sebin sebastian
+#Write an ALP count no. of 1’s and load number in 4000H memory location the results stored 
+in 6000H?
+
+
 MVI B 00h
 MVI C 08h
 LDA 4000h

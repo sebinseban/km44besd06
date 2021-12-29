@@ -1,3 +1,8 @@
+#sebin sebastian
+#Write an ALP to 16 bytes of data stored in memory locations at 2000H to 200FH. Transfer 
+the entire block of data to new memory locations starting at 4000H.
+
+
 MVI C 0Fh
 LXI D 4000h
 LXI H 2000h

@@ -1,3 +1,9 @@
+#sebin sebastian
+#Write an ALP to perform multiplication of two numbers without using MUL instruction first 
+& second number stored in 4000H & 4001H memory locations respectively and the result 
+stored in 6000H?
+
+
 LXI H 4000h
 MOV B M
 INX H

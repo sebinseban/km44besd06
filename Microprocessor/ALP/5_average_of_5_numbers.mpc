@@ -1,3 +1,8 @@
+#sebin sebastian
+#Write an ALP average of 5 numbers takes the numbers from 4000H to 4004H location and 
+store the result in 4005H?
+
+
 MVI C 05h
 LXI H 4000h
 LOOP: ADD M
