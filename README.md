@@ -1,8 +1,10 @@
 # KM44BESD06
 
+# 2 BASIC C
+
 "Sebin Sebastian" Lab Assignments Repo
 
-## 3.ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
+## 2.2 ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
 ###    1) notedown and practice all escape sequences
 ###    2) practice skip characters
 ###    3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
@@ -13,7 +15,7 @@
                 4
 
 
-## 2.VARIABLES (27/12/2021) (ASSIGNMENT 1)
+## 2.1 VARIABLES (27/12/2021) (ASSIGNMENT 1)
 
 #### 1) List out the format specifiers for different datatypes.
 #### 2) Create a variable for every datatype and try scanf and printf on those variables.
