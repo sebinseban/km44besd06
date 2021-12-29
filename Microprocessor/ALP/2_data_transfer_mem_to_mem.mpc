@@ -1,0 +1,52 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 MVI C 0Fh
+\par LXI D 4000h
+\par LXI H 2000h
+\par \cf0 
+\par \cf1 TRANSFER: MOV A C
+\par STAX D
+\par INX H
+\par INX D
+\par DCR C
+\par JNZ TRANSFER
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+3| 4000| 0F
+4| 4001| 0E
+5| 4002| 0D
+6| 4003| 0C
+7| 4004| 0B
+8| 4005| 0A
+9| 4006| 09
+10| 2000| 0F
+11| 2001| 0E
+12| 2002| 0D
+13| 2003| 0C
+14| 2004| 0B
+<End UserData>
+20
+1| 8000| 0E
+2| 8001| 0F
+3| 8002| 11
+4| 8003| 00
+5| 8004| 40
+6| 8005| 21
+7| 8006| 00
+8| 8007| 20
+9| 8008| 79
+10| 8009| 12
+11| 800A| 23
+12| 800B| 13
+13| 800C| 0D
+14| 800D| C2
+15| 800E| 08
+16| 800F| 80
+17| 8010| 76
+<End HexData>
+
+
+<End Comment>
