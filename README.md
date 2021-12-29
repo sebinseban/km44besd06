@@ -3,21 +3,21 @@
 "Sebin Sebastian" Lab Assignments Repo
 
 ## 3.ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
-1) notedown and practice all escape sequences
-2) practice skip characters
-3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
-        op:  
-        4596
-        459
-        45
-        4
+###    1) notedown and practice all escape sequences
+###    2) practice skip characters
+###    3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
+                op:  
+                4596
+                459
+                45
+                4
 
 
 ## 2.VARIABLES (27/12/2021) (ASSIGNMENT 1)
 
-### 1) List out the format specifiers for different datatypes.
-### 2) Create a variable for every datatype and try scanf and printf on those variables.
-### 3)"Calculation of simple interest.
+#### 1) List out the format specifiers for different datatypes.
+#### 2) Create a variable for every datatype and try scanf and printf on those variables.
+#### 3) Calculation of simple interest.
         steps: 
         a)declare 2 integer variables p and n to represent principle and duration in months respectively.
         b)declare a floating point variable r to represent rate of interest.
@@ -30,11 +30,11 @@
         Hint : m = n / 12.0;
         h)calculate simple interest using the below formula and store in si variable.
         si = p * m * r / 100;
-        i) print si value to the user using printf."
+        i) print si value to the user using printf.
 
-### 4)calculation of average of 4 numbers
-### 5)calculation of area and perimeter of rectangle,square and circle by taking the appropriate measurement as input.
-### 6)if sale price and profit of n items is given as input, find the cost price of 1 item.
+#### 4)calculation of average of 4 numbers
+#### 5)calculation of area and perimeter of rectangle,square and circle by taking the appropriate measurement as input.
+#### 6)if sale price and profit of n items is given as input, find the cost price of 1 item.
 
 
 
