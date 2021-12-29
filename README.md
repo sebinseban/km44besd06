@@ -1,8 +1,8 @@
 # KM44BESD06
 
-"Sebin Sebastian" Lab Assignments Repo
+"Sebin Sebastian" Lab Assignments Repo"
 
-# 2 BASIC C
+## 2 BASIC C
 
 ## 2.2 ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
 ###   1) notedown and practice all escape sequences
