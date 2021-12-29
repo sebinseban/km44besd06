@@ -1,3 +1,5 @@
+//sebin sebastian
+//calculation of area and perimeter of rectangle,square and circle by taking the appropriate measurement as input.
 #include<stdio.h>
 int main()
 {
