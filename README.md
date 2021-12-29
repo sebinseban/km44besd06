@@ -8,7 +8,7 @@
 ####   1) notedown and practice all escape sequences
 ####   2) practice skip characters
 ####   3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
-                op:  
+                output:  
                 4596
                 459
                 45

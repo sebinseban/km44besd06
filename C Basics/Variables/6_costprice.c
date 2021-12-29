@@ -1,3 +1,5 @@
+//sebin sebastian
+//if sale price and profit of n items is given as input, find the cost price of 1 item.
 #include <stdio.h>
 int main()
 {

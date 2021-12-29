@@ -1,3 +1,6 @@
+//sebin sebastian
+//calculation of average of 4 numbers
+
 #include <stdio.h>
 int main()
 {

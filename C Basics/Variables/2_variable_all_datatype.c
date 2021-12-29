@@ -1,3 +1,5 @@
+//sebin sebastian
+//Create a variable for every datatype and try scanf and printf on those variables.
 #include<stdio.h>
 
 
