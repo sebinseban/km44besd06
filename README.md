@@ -55,11 +55,12 @@ eg.> 4532
    2) practice skip characters
 
    3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
-                output:  
-                4596
-                459
-                45
-                4
+
+                        output:  
+                        4596
+                        459
+                        45
+                        4
 
 
 ### 2.1 VARIABLES (27/12/2021) (ASSIGNMENT 1)
@@ -86,7 +87,7 @@ eg.> 4532
   4)calculation of average of 4 numbers
 
   5)calculation of area and perimeter of rectangle,square and circle by taking the appropriate measurement as input.
-  
+
   6)if sale price and profit of n items is given as input, find the cost price of 1 item.
 
 
