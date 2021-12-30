@@ -12,7 +12,7 @@
 2)Read a character and print its ascii value, and vice versa.
 
 3)read a 4 digit number into a single integer variable and print it in the following formats using operators:
-eg., 4532
+eg.> 4532
         OP1: 
         2
         3
@@ -37,15 +37,16 @@ eg., 4532
         45
         4
 
-        OP5://store the given number in another integer in reverse and print it
+        OP5:
+        //store the given number in another integer in reverse and print it
         2354 
 
 4)Read 2 integer variable values and swap their values and print back.
-eg., a value 5
-b value 8
+        eg.. a value 5
+        b value 8
 
-output: a value is 8 
-b value is 5
+        output: a value is 8 
+        b value is 5
 
 ### 2.2 ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
 
