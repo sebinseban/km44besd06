@@ -51,7 +51,9 @@ eg.> 4532
 ### 2.2 ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
 
    1) notedown and practice all escape sequences
+
    2) practice skip characters
+
    3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
                 output:  
                 4596
@@ -63,7 +65,9 @@ eg.> 4532
 ### 2.1 VARIABLES (27/12/2021) (ASSIGNMENT 1)
 
   1) List out the format specifiers for different datatypes.
+
   2) Create a variable for every datatype and try scanf and printf on those variables.
+
   3) Calculation of simple interest.
         steps: 
         a)declare 2 integer variables p and n to represent principle and duration in months respectively.
@@ -79,9 +83,11 @@ eg.> 4532
         si = p * m * r / 100;
         i) print si value to the user using printf.
 
-####  4)calculation of average of 4 numbers
-####  5)calculation of area and perimeter of rectangle,square and circle by taking the appropriate measurement as input.
-####  6)if sale price and profit of n items is given as input, find the cost price of 1 item.
+  4)calculation of average of 4 numbers
+
+  5)calculation of area and perimeter of rectangle,square and circle by taking the appropriate measurement as input.
+  
+  6)if sale price and profit of n items is given as input, find the cost price of 1 item.
 
 
 
