@@ -6,39 +6,39 @@
 
 ### 2.3 OPERATORS
 
-1)"Write a program that reads an integer and displays the right-most digit of the number.
-(Eg: User enters, 456, the output should be 6)."
+1)Write a program that reads an integer and displays the right-most digit of the number.
+(Eg: User enters, 456, the output should be 6).
 
 2)Read a character and print its ascii value, and vice versa.
 
-3)"read a 4 digit number into a single integer variable and print it in the following formats using operators:
+3)read a 4 digit number into a single integer variable and print it in the following formats using operators:
 eg., 4532
-OP1: 
-2
-3
-5
-4
+        OP1: 
+        2
+        3
+        5
+        4
 
-OP2:
-4
-5
-3
-2
+        OP2:
+        4
+        5
+        3
+        2
 
-OP3:
-4
-45
-453
-4532
+        OP3:
+        4
+        45
+        453
+        4532
 
-OP4:
-4532
-453
-45
-4
+        OP4:
+        4532
+        453
+        45
+        4
 
-OP5://store the given number in another integer in reverse and print it
-2354 
+        OP5://store the given number in another integer in reverse and print it
+        2354 
 
 4)Read 2 integer variable values and swap their values and print back.
 eg., a value 5
@@ -49,9 +49,9 @@ b value is 5
 
 ### 2.2 ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
 
-####   1) notedown and practice all escape sequences
-####   2) practice skip characters
-####   3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
+   1) notedown and practice all escape sequences
+   2) practice skip characters
+   3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
                 output:  
                 4596
                 459
@@ -61,9 +61,9 @@ b value is 5
 
 ### 2.1 VARIABLES (27/12/2021) (ASSIGNMENT 1)
 
-####  1) List out the format specifiers for different datatypes.
-####  2) Create a variable for every datatype and try scanf and printf on those variables.
-####  3) Calculation of simple interest.
+  1) List out the format specifiers for different datatypes.
+  2) Create a variable for every datatype and try scanf and printf on those variables.
+  3) Calculation of simple interest.
         steps: 
         a)declare 2 integer variables p and n to represent principle and duration in months respectively.
         b)declare a floating point variable r to represent rate of interest.
