@@ -18,4 +18,11 @@ int main()
     printf("%d\b\b\b\b  \n",x);
     printf("%d\b\b\b\b \n",x);
     printf("%d\n",x);
+    
+    printf("\n");
+    //same functionality using /r
+    printf("%d\r   \n",x);
+    printf("%d\r  \n",x);
+    printf("%d\r \n",x);
+    printf("%d\n",x);
 }
