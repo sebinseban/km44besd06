@@ -4,7 +4,7 @@
 
 ## 2 BASIC C
 
-### 2.3 OPERATORS
+### 2.3 OPERATORS (30/12/2021) ASSIGNMENT 3
 
 1)Write a program that reads an integer and displays the right-most digit of the number.
 (Eg: User enters, 456, the output should be 6).
