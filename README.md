@@ -56,11 +56,11 @@ eg.> 4532
 
    3) Read a 4 digit integer number into a variable ( eg., 4596) and print it in the below format using escape sequences:
 
-                        output:  
-                        4596
-                        459
-                        45
-                        4
+        output:  
+        4596
+        459
+        45
+        4
 
 
 ### 2.1 VARIABLES (27/12/2021) (ASSIGNMENT 1)
@@ -70,7 +70,9 @@ eg.> 4532
   2) Create a variable for every datatype and try scanf and printf on those variables.
 
   3) Calculation of simple interest.
-        steps: 
+        
+        steps:
+        
         a)declare 2 integer variables p and n to represent principle and duration in months respectively.
         
         b)declare a floating point variable r to represent rate of interest.
