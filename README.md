@@ -6,7 +6,7 @@
 
 ### 2.4 IF ELSE (31/12/2021) ASSIGNMENT 4
 
-1)Write a program to printthe biggest of two numbers.
+1)Write a program to print the biggest of two numbers.
 
 2)Write a program that determines whether a given integer is odd or even and displays the appropriate message.
 
