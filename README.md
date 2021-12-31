@@ -49,6 +49,15 @@ eg.> 4532
         output: a value is 8 
         b value is 5
 
+5)Read a four digit integer from user and print it in the following pattern.
+        Input: 1234
+                  1
+                 34
+                234
+               1234
+
+Implement using Operators and Escape sequences.  
+
 ### 2.2 ESCAPE SEQUENCES (28/12/2021) (ASSIGNMENT 2)
 
    1) notedown and practice all escape sequences
