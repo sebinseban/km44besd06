@@ -14,15 +14,23 @@ int main()
     printf("Enter a 4 digit integer: ");
     scanf("%d",&x);
 
+    //implementation using escape sequence , \b
     printf("%d\b\b\b\b   \n",x);
     printf("%d\b\b\b\b  \n",x);
     printf("%d\b\b\b\b \n",x);
     printf("%d\n",x);
     
     printf("\n");
-    //same functionality using /r
+    //same functionality using escape sequence , \r
     printf("%d\r   \n",x);
     printf("%d\r  \n",x);
     printf("%d\r \n",x);
+    printf("%d\n",x);
+
+    //same functionality using operator
+    printf("\n");
+    printf("   %d\n", x%10);
+    printf("  %d\n", x%100);
+    printf(" %d\n", x%1000);
     printf("%d\n",x);
 }
