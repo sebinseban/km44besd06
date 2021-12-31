@@ -4,6 +4,57 @@
 
 ## 2 BASIC C
 
+### 2.4 IF ELSE (31/12/2021) ASSIGNMENT 4
+
+1)Write a program to printthe biggest of two numbers.
+
+2)Write a program that determines whether a given integer is odd or even and displays the appropriate message.
+
+3)For one type of mobile service, if cost is 250/- upto 100 calls and 1.25/- for each call made over and above 100 calls.     Write a program to read number of calls made and compute and print the bill.
+
+4)check if a character is alphabet or not
+
+5)Input an alphabet. Output its case reverse.
+
+6)check if an year is leap year or not.
+
+7)C program to check whether a character is vowel or consonant using switch statement
+
+8)Take an integer as input and print its magnitude (remove sign).
+
+9)Write a program to find the biggest of three numbers using if else statements.
+
+10)C program to check whether a number is positive, negative or zero
+
+11)Write a program to find the biggest of four numbers.
+
+12)Write a calculator program that takes two integer numbers from user, and one of the operands +,-,* and / as a character and prints the appropriate result using if else.
+
+13)"Find the power bill for the input number of units :
+
+        0 - 200 units : 100/- min
+        201 - 400 units : 100 + 0.65 per unit excess of 200
+        401 - 600 units : 230 + 0.80 per unit excess of 400
+        601 and above units : 390 + 1.00 per unit excess of 600"
+
+14)"Find the % of marks for 6 subjects, for a student, and print the grade of the student as per below division , using if else statement.
+
+        80 - 100        : Honours
+        60 - 79         : First Division
+        50 - 59         : Second Division
+        40 - 49         : Third Division
+        0 - 39          : Fail"
+
+15) Read a 4 digit integer and print it in the below format:
+
+        input: 3465
+
+        output:
+        5
+        65
+        465
+        3465
+
 ### 2.3 OPERATORS (30/12/2021) ASSIGNMENT 3
 
 1)Write a program that reads an integer and displays the right-most digit of the number.
