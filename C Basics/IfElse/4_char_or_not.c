@@ -10,28 +10,36 @@ int main()
     scanf("%c",&input);
     //printf("the entered char is:%c\n",input);
 
-    if (input <= 90)
+    
+    if (input >= 97)
     {
-        if(input >= 65)
-        {
-            printf("The input is a (capital letter) alphabet.\n");
-        }
-    }
-    if (input <= 122)
-    {
-        if(input >= 97)
+        if(input <= 122)
         {
             printf("The input is a (small letter) alphabet.\n");
         }
-    }
-    if (input < 65)
-    {
-        if(input > 0)
+        else 
         {
-                    printf("Enter a valid alphabet.\n");
-
+            printf("Enter a valid alphabet.\n");
         }
     }
+
+    else if (input >= 65)
+    {
+        if(input <= 90)
+        {
+            printf("The input is a (capital letter) alphabet.\n");
+        }
+        else 
+        {
+            printf("Enter a valid alphabet.\n");
+        }
+
+
+    }
+    else 
+    printf("Enter a valid alphabet.\n");
+
+    
    
 
 
