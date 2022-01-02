@@ -102,10 +102,10 @@ eg.> 4532
 
 5)Read a four digit integer from user and print it in the following pattern.
         Input: 1234
-                  1
-                 34
-                234
-               1234
+                        1
+                        34
+                        234
+                        1234
 
 Implement using Operators and Escape sequences.  
 
