@@ -11,19 +11,19 @@ int main()
     scanf("%c",&alph);
     temp = alph;
 
-    if (alph >= 97)
+    if (alph >= 97)                                                 //check if the character is small letter
     {
-        if (alph <= 122)
+        if (alph <= 122)                                            //range for small letter
         {
-            alph = alph - 32;
+            alph = alph - 32;                                      //convert to upper case
             printf("Reverse case of %c is : %c\n",temp,alph);
         }
-        else 
+        else                                                       //if user entered other than alphabet, show error message
         {
             printf("Enter a valid alphabet.");
         }
     }
-    else if (alph >= 65)
+    else if (alph >= 65)                                                                    //check if character is capital letter
     {
         if (alph <= 90)
         {
