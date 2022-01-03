@@ -41,12 +41,13 @@ int main()
                 printf("D is biggest.\n");
             }
         }
-        else 
+        else if (c > b)
         {
             printf("C is biggest.\n");
         }
     }
-    else if ( c > a)
+}    
+    /*else if ( c > a)
     {
         if (c > b)
         {
@@ -85,3 +86,5 @@ int main()
     }
     
 }
+
+*/

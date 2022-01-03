@@ -6,9 +6,9 @@
 
         output:
          5
-        65
-        465
-        3465                        */
+        6 5
+       4 6 5
+      3 4 6 5                        */
 
 #include <stdio.h>
 int main()
@@ -17,7 +17,9 @@ int main()
     printf("Enter a 4 digit integer:");
     scanf("%d",&x);
 
-    printf("%7d\n",x%10);
-    printf("%d \n",x);
+    printf("   %d   \n",x%10);
+    printf("   %2d  \n", x %100);
+    printf("%3d\n",x%1000);
+    printf("%4d\n",x);
 
 }
