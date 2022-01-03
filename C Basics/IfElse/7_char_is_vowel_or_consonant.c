@@ -9,9 +9,9 @@ int main()
     printf("Enter a char in lower case:");
     scanf("%c",&input);
 
-    if (input >= 97)
+    if (input <= 122)
     {
-        if(input <= 122)
+        if(input >= 97)
         {
             if (input == 'a')
             {

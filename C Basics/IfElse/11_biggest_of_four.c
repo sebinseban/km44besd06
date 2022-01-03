@@ -16,40 +16,25 @@ int main()
         {
             if (a > d)
             {
-                printf("A is biggest.\n");
-            }
-            else 
-            {
-                printf("D is biggest.\n");
+                printf("A:%d is biggest.\n",a);
             }
         }
+
     }
     else if ( b > c)
     {
-        if ( b > a)
+        if ( b > d)
         {
-            if ( b > d)
-            {
-                printf("B is biggest.\n");
-            }
-            else 
-            {
-                printf("D is biggest.\n");
-            }
-        }
-        else if (c > d)
-        {
-            if (c > b)
-            {
-                if (c > d)
-                {
-                    printf("C is biggest.");
-                }
-                else 
-                {
-                    printf("D is  biggest.\n");
-                }
-            }
-        }
+            
+            printf("B:%d is biggest.\n",b);
+        }     
+    }
+    else if ( c > d)
+    {
+        printf("c: %d is biggest.\n",c);
+    }
+    else 
+    {
+        printf("d:%d is biggest.\n",d);
     }
 }    
