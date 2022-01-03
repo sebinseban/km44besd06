@@ -18,6 +18,14 @@ int main()
             {
                 printf("A is biggest.\n");
             }
+            else 
+            {
+                printf("D is biggest.\n");
+            }
+        }
+        else 
+        {
+            ("C is biggest.\n");
         }
     }
     else if ( b > a)
@@ -28,6 +36,14 @@ int main()
             {
                 printf("B is biggest.\n");
             }
+            else 
+            {
+                printf("D is biggest.\n");
+            }
+        }
+        else 
+        {
+            printf("C is biggest.\n");
         }
     }
     else if ( c > a)
@@ -38,6 +54,15 @@ int main()
             {
                 printf("C is biggest.\n");
             }
+            else 
+            {
+                printf("D is biggest.\n");
+            }
+
+        }
+        else 
+        {
+            printf("B is biggest.\n");
         }
     }
     else if (d > a)
@@ -47,6 +72,10 @@ int main()
             if ( d > c)
             {
                 printf("D is biggest.");
+            }
+            else 
+            {
+                printf("D is biggest.\n");
             }
         }
     } 

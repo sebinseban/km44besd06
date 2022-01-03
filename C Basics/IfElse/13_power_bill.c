@@ -29,7 +29,7 @@ int main()
         if (units >= 201)
         {
             temp = units - 200;
-            printf("Total: %f\n", temp* 1.25 + 100);
+            printf("Total: %f\n", temp* 0.65 + 100);
         }
     }
 

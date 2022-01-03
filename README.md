@@ -43,14 +43,14 @@
         60 - 79         : First Division
         50 - 59         : Second Division
         40 - 49         : Third Division
-        0 - 39          : Fail"
+        0 - 39          : Fail
 
 15) Read a 4 digit integer and print it in the below format:
 
         input: 3465
 
         output:
-        5
+         5
         65
         465
         3465
