@@ -6,7 +6,7 @@
 
 int main()
 {
-    int a = 0, b = 0, c = 0, d = 0;
+    int a , b , c , d ;
     printf("Enter 4 integers: ");
     scanf("%d %d %d %d", &a,&b,&c,&d);
 
@@ -23,14 +23,10 @@ int main()
                 printf("D is biggest.\n");
             }
         }
-        else 
-        {
-            ("C is biggest.\n");
-        }
     }
-    else if ( b > a)
+    else if ( b > c)
     {
-        if ( b > c)
+        if ( b > a)
         {
             if ( b > d)
             {
@@ -41,50 +37,19 @@ int main()
                 printf("D is biggest.\n");
             }
         }
-        else if (c > b)
+        else if (c > d)
         {
-            printf("C is biggest.\n");
+            if (c > b)
+            {
+                if (c > d)
+                {
+                    printf("C is biggest.");
+                }
+                else 
+                {
+                    printf("D is  biggest.\n");
+                }
+            }
         }
     }
 }    
-    /*else if ( c > a)
-    {
-        if (c > b)
-        {
-            if ( c > d)
-            {
-                printf("C is biggest.\n");
-            }
-            else 
-            {
-                printf("D is biggest.\n");
-            }
-
-        }
-        else 
-        {
-            printf("B is biggest.\n");
-        }
-    }
-    else if (d > a)
-    {
-        if ( d > b)
-        {
-            if ( d > c)
-            {
-                printf("D is biggest.");
-            }
-            else 
-            {
-                printf("D is biggest.\n");
-            }
-        }
-    } 
-    else 
-    {
-        printf("Something wrong\n");
-    }
-    
-}
-
-*/
