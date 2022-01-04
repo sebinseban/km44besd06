@@ -5,6 +5,33 @@
 
 ## 2 BASIC C
 
+### 2.5 LOGICAL OPERATORS (04/02/2022) ASSIGNMENT 5
+
+1)check if a character is alphabet or not.
+
+2)check if a character is vowel or not.
+
+3)check if an year is leap year or not.
+
+4)"Find the power bill for the input number of units :
+
+        0 - 200 units : 100/- min
+        201 - 400 units : 100 + 0.65 per unit excess of 200
+        401 - 600 units : 230 + 0.80 per unit excess of 400
+        601 and above units : 390 + 1.00 per unit excess of 600
+
+5)"Find the % of marks for 6 subjects, for a student, and print the grade of the student as per below division , using if else statement.
+
+        80 - 100        : Honours
+        60 - 79         : First Division
+        50 - 59         : Second Division
+        40 - 49         : Third Division
+        0 - 39          : Fail
+
+6)Write a program to find the biggest of three numbers using if else statements.
+
+7)Write a program to find the biggest of four numbers.
+
 ### 1 LAB EXAM
 
 #### 1.1 LAB TEST 1 ( 31/12/2021)
@@ -13,7 +40,30 @@ Find the denomination of notes to be printed for the given amount of money.
 
 #### 1.2 LAB TEST 2 (03/02/2022)
 
-Find the valid dates from the given dates.
+Read a date from the user(day, month & year), and print if the given date is valid or not. Consider 1900 to 2200 is valid range for years. 
+Test this program for the below test cases. 
+
+        Input            expected output	   
+        1)  2-1-1857	 Invalid Date
+        2)  31-1-1900      Valid Date
+        3)  31-2-2000      Invalid Date
+        4)  31-3-2001      Valid Date
+        5)  31-4-2001      Invalid Date
+        6)  29-2-2000      Valid Date
+        7)  28-2-2019      Valid Date
+        8)  29-2-2001      Invalid Date
+        9)  32-5-2000      Invalid Date
+        10) 31-6-2005     Invalid Date
+        11) 31-8-2004      Valid Date
+        12) 30-9-2100      Valid Date
+        13) 29-2-2200      InValid Date
+        14) 5-12-2201      Invalid Date
+        15) 31-11-2100    Invalid Date
+        16) 30-12-2011    Valid Date
+        17) 31-12-2011    Valid Date
+        18) 20-13-2000    Invalid Date
+        19) 30-2-2000     Invalid Date
+        20) 10-31-2020    Invalid Date
 
 ### 2.4 IF ELSE (31/12/2021) ASSIGNMENT 4
 
