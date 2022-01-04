@@ -13,7 +13,7 @@
 
 3)check if an year is leap year or not.
 
-4)"Find the power bill for the input number of units :
+4)Find the power bill for the input number of units :
 
         0 - 200 units : 100/- min
         201 - 400 units : 100 + 0.65 per unit excess of 200
