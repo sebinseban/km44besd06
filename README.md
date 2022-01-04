@@ -2,7 +2,18 @@
 
 "Sebin Sebastian" Lab Assignments Repo"
 
+
 ## 2 BASIC C
+
+### 1 LAB EXAM
+
+#### 1.1 LAB TEST 1 ( 31/12/2021)
+
+Find the denomination of notes to be printed for the given amount of money.
+
+#### 1.2 LAB TEST 2 (03/02/2022)
+
+Find the valid dates from the given dates.
 
 ### 2.4 IF ELSE (31/12/2021) ASSIGNMENT 4
 
