@@ -94,6 +94,10 @@ int main()
     {
         printf("Invalid date\n");
     }
+    else if (month < 0)
+    {
+        printf("Invalid date.\n");
+    }
     else if (month == 2)
     {
         if (day > 30)
