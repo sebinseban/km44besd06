@@ -20,7 +20,7 @@
         401 - 600 units : 230 + 0.80 per unit excess of 400
         601 and above units : 390 + 1.00 per unit excess of 600
 
-5)"Find the % of marks for 6 subjects, for a student, and print the grade of the student as per below division , using if else statement.
+5)Find the % of marks for 6 subjects, for a student, and print the grade of the student as per below division , using if else statement.
 
         80 - 100        : Honours
         60 - 79         : First Division
