@@ -127,7 +127,15 @@ int main()
                     }
 
                 }
+                break;
+
+            default:
+                printf("Invalid date.\n");
         }
+    }
+    else 
+    {
+        printf("Invalid year.\n");
     }
 
 }
