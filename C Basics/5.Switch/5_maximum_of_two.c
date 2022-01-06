@@ -10,14 +10,22 @@ int main()
     printf("Enter two integers: ");
     scanf("%d %d",&a,&b);
 
-    switch ( a > b)
+    if ( !(a == b))
     {
-        case 1:
-            printf("A is greater.\n");
-            break;
-        
-        case 0:
-            printf("B is greater.\n");
-            break;
+        switch ( a > b)
+        {
+            case 1:
+                printf("A is greater.\n");
+                break;
+            
+            case 0:
+                printf("B is greater.\n");
+                break;
+    
+        }
+    }
+    else 
+    {
+        printf("Enter different integers.\n");
     }
 }
