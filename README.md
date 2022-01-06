@@ -5,6 +5,35 @@
 
 ## 2 BASIC C
 
+### 2.7 OPERATORS 2 (06/01/2022) ASSIGNMENT 7
+
+1) Write a program to find the biggest of two numbers using conditional operator.
+
+2) Write a program to find the biggest of three numbers using conditional operator.
+
+3) Write a program that determines whether a given integer is odd or even and displays the appropriate message.
+
+5) Take three input integers x,y and z. Write a program to rotate their values such that, x has the value of y, y has the value of z and z has the value of x.
+
+6) Find out the percentage of marks from 6 subjects and print it with 2 digit precision.
+
+7) Write a program to print the size of various data types in C.
+
+8) For one type of mobile service, if cost is 250/- upto 100 calls and 1.25/- for each call made over and above 100 calls. Write a program to read number of calls made and compute and print the bill.
+
+9) check if a character is alphabet or not
+
+10) Input an alphabet. Output its case reverse.
+
+11) Input 3 digits, read them into three different characters. Make one integer out of them and display.
+
+        Eg., input 345. char c =‘3’,b=‘4’,d=‘5’. 
+        Output : int i = 345.
+
+12) check if a character is vowel or not
+
+13) check if an year is leap year or not.
+
 ### 2.6 SWITCH (06/01/2022) ASSIGNMENT 6
 
 1)C program to check whether a character is vowel or consonant using switch statement.
