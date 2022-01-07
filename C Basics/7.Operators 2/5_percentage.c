@@ -9,8 +9,9 @@ int main()
     float a,b,c,d,e,f,total;
     printf("Enter marks for 6 subjects out of 100: ");
     scanf("%f %f %f %f %f %f", &a,&b,&c,&d,&e,&f);
+    total = (a+b+c+d+e+f)/6;
 
-    1 ? printf("Total percentage is : %0.2f ", (a+b+c+d+e+f)/6): printf("No use");
+    (total <= 100 && total >= 0) ? printf("Total percentage is : %0.2f ", (a+b+c+d+e+f)/6): printf("No use");
 
 
 }
