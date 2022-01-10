@@ -5,6 +5,37 @@
 
 ## 2 BASIC C
 
+### 2.8 WHILE LOOP
+
+1) Write a program to print all numbers from 1 to n.
+
+2) Write a program to print all odd numbers and even numbers from m to n.
+
+3) Write a program to print the sum of n given numbers (Positive / negative) and print the final sum.
+
+4) Write a program to print the sum of positive numbers and negative numbers seperately in the above program.
+
+        eg.,
+
+3) Write a program to find the factorial of a given number.
+
+        N! = n * n-1 * n-2 * …. 2 * 1
+
+4) Find the product of 2 numbers without using multiplication symbol (use repeated addition)
+
+5) Write a program to find the power of a given number to a given integer without using any builtin functions.
+
+        eg., inputs: 5   3
+        output: 5*5*5 = 125
+
+6) Write a program to find out if an integer entered by a user is a prime number or not.
+
+7) Write a program to input n numbers and print the largest and smallest numbers out of them.
+
+        Eg., 3,23,56,34,78,45,26,90,68,77
+        Biggest Number is 90
+        Smallest Number is 3
+
 ### 2.7 OPERATORS 2 (06/01/2022) ASSIGNMENT 7
 
 1) Write a program to find the biggest of two numbers using conditional operator.
