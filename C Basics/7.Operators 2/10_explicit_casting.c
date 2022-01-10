@@ -21,7 +21,7 @@ int main()
 
 
     int l = i*100 + j*10 + k*1;
-    printf("%d",l);    
+    printf("%d\n",l);    
 
 
     

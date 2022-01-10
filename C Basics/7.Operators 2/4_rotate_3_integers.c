@@ -7,5 +7,11 @@
 
 int main()
 {
-    
+    int x,y,z;
+    printf("Enter three integers:");
+    scanf("%d %d %d",&x,&y,&z);
+
+    z == x ? printf("%d",x): printf("%d",z);
+    y == z ? printf("%d",z): printf("%d",y);
+    x == y ? printf("%d",y): printf("%d",x);
 }
