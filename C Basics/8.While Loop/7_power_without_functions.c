@@ -13,7 +13,7 @@ int main()
     printf("Enter a number followed by power value:");
     scanf("%d %d",&m,&n);
     power = m;
-    while (n > 0)
+    while (n > 1)
     {
         power = power * m;
         n--;
