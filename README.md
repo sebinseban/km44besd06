@@ -17,20 +17,20 @@
 
         eg.,
 
-3) Write a program to find the factorial of a given number.
+5) Write a program to find the factorial of a given number.
 
         N! = n * n-1 * n-2 * …. 2 * 1
 
-4) Find the product of 2 numbers without using multiplication symbol (use repeated addition)
+6) Find the product of 2 numbers without using multiplication symbol (use repeated addition)
 
-5) Write a program to find the power of a given number to a given integer without using any builtin functions.
+7) Write a program to find the power of a given number to a given integer without using any builtin functions.
 
         eg., inputs: 5   3
         output: 5*5*5 = 125
 
-6) Write a program to find out if an integer entered by a user is a prime number or not.
+8) Write a program to find out if an integer entered by a user is a prime number or not.
 
-7) Write a program to input n numbers and print the largest and smallest numbers out of them.
+9) Write a program to input n numbers and print the largest and smallest numbers out of them.
 
         Eg., 3,23,56,34,78,45,26,90,68,77
         Biggest Number is 90
