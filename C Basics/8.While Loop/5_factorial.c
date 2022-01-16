@@ -6,14 +6,17 @@
 
 int main()
 {
-    int n,factorial = 0;
+    int n,factorial ;
     printf("Enter a number to find its factorial:");
     scanf("%d",&n);
 
     //N! = n * n-1 * n-2 * …. 2 * 1
-    
-    while (i < n )
+
+    factorial = n;
+    while (n > 1 )
     {
-        factorial = 
+        n--;
+        factorial = factorial * n;
     }
+    printf("The factorial is : %d\n", factorial);
 }
