@@ -10,7 +10,7 @@
 
 int main()
 {
-    int input,var1,var2 = 0,result = 0,result_lower = 99999999;
+    int input,var1,var2 = 0,result = 0,result_lower = 4294967295;
     printf("Enter total numbers you want:");
     scanf("%d",&input);
 
