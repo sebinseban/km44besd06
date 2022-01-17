@@ -6,26 +6,27 @@
 
 int main()
 {
-    int input;
+    int input,temp = 0;
     printf("Enter an integer:");
     scanf("%d",&input);
-    
-    int i = 2;
-    
-    while (input >= i)
+
+    int i = 1;
+
+    while (i <= input)
     {
-        if ( input % i != 0)
+        if ( input % i == 0)
         {
-            printf("Not prime.\n");
+            temp++;
         }
-        else 
-        {
-            printf("Prime.\n");
-        }
-
-
-
         i++;
+    }
+    if (temp == 2)
+    {
+        printf("Prime.\n");
+    }
+    else
+    {
+        printf("Not Prime.\n");
     }
 
 
