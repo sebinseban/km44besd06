@@ -10,7 +10,7 @@
 
 int main()
 {
-    int input,var1,var2 = 0,result = 0;
+    int input,var1,var2 = 0,result = 0,result_lower = 99999999;
     printf("Enter total numbers you want:");
     scanf("%d",&input);
 
@@ -25,8 +25,13 @@ int main()
         {
             result = var1;
         }
+        if (var1 < result_lower)
+        {
+            result_lower = var1;
+        }
 
     }
     printf("The biggest number is :%d\n",result);
-    printf("The smallest number is :try later\n");   //need to implement logic for smallest number
+    printf("The smallest number is :%d\n",result_lower);
+
 }
