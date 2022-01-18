@@ -5,6 +5,160 @@
 
 ## 2 BASIC C
 
+### 2.9 
+
+1) Write a program to input a number and count the digits in it.
+        
+        Eg. 
+        0 - number of digits 1
+        12 – number of digits 2
+        155 – number of digits 3
+
+2) Write a program to find out if an integer entered by a user is a prime number or not.(Count the number of factors for the number)
+
+3) Write a program to print the first n Fibonacci numbers.
+
+        Eg., First 8 Fibonacci numbers are :
+        1  1  2  3  5  8  13  21 
+
+4)Write a program to find the reverse of an integer.
+Hint: remove each digit and put it in the right place in another integer variable.
+
+        eg., input 4675
+        output: 5764 
+
+5)Modify the calculator program to perform the operations continuously until the user chooses not to continue further.
+
+        eg., input: 3 + 4
+        output: 3 + 4 = 7
+        do you want to continue (y/n) ? y
+        input: 4 * 8
+        output: 4 * 8 = 32
+        do you want to continue (y/n) ? n
+        Thank you
+
+
+
+Print the following patterns for a given n (number of rows)
+        eg., n = 5
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+6)using while ,do while and for loops:
+
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+
+7)Without using nested loops :
+
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+
+8)
+
+        1
+        2 2
+        3 3 3
+        4 4 4 4
+        5 5 5 5 5
+
+9)
+
+        1
+        1 2
+        1 2 3
+        1 2 3 4
+        1 2 3 4 5
+
+10)
+
+        1
+        0 1
+        1 0 1
+        0 1 0 1
+        1 0 1 0 1
+
+11)
+
+        5
+        4 4
+        3 3 3
+        2 2 2 2
+        1 1 1 1 1
+
+12)
+
+        5
+        5 4
+        5 4 3
+        5 4 3 2
+        5 4 3 2 1
+
+13)
+
+        1
+        2    3
+        4    5   6
+        7    8   9    10
+        11   12  13   14  15
+
+14)
+
+        5
+      4 4
+    3 3 3
+  2 2 2 2
+1 1 1 1 1
+
+15)
+
+        5 5 5 5 5
+        4 4 4 4
+        3 3 3
+        2 2
+        1
+
+16)
+
+1 2 3 4 5
+  2 3 4 5
+    3 4 5
+      4 5
+        5
+
+
+17)
+
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+
+18)
+
+           1
+         2 3 2
+       3 4 5 4 3
+     4 5 6 7 6 5 4
+   5 6 7 8 9 8 7 6 5
+     4 5 6 7 6 5 4
+       3 4 5 4 3
+         2 3 2
+           1
+
 ### 2.8 WHILE LOOP
 
 1) Write a program to print all numbers from 1 to n.
