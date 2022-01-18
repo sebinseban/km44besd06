@@ -6,47 +6,30 @@
 
 int main()
 {
-    int m, n, p , q;
+    int m, n, p;
     printf("Enter starting value:");
     scanf("%d",&m);
     printf("Enter stop value:");
     scanf("%d",&n);
-
-    //printf("%d%d",m,n);
-
-    //printf("Even: ");
-
     p = m;
-    q = n; 
-    if (m % 2 == 0)
+    printf("Odd number: ");
+    while (m < n)
     {
-        printf("Even: ");
-        while ( m != n)
+        if(m % 2 != 0)
         {
-            if( m % 2 == 0 && n % 2 == 0)
-            {
-                
-                printf(" %d ",m);
-                m = m + 2;
-            }
-            
+            printf(" %d ",m);
         }
-        printf(" %d \n",m);
+        m++;
     }
-
-  
-        printf("Odd: ");
-        while (p != q)
-        {
-            if(p % 2 == 0 )
-            {
-                
-
-                printf(" %d ",p);
-                p = p + 2;
-            }
-        }
-        printf(" %d",p);
     
+    printf("\nEven number: ");
+    while (p < n)
+    {
+        if(p % 2 == 0)
+        {
+            printf(" %d ",p);
+        }
+        p++;
+    }
     
 }
