@@ -14,16 +14,23 @@ int main()
     printf("Enter height: ");
     scanf("%d",&input);
 
-    for (int i = 0; i < input; i++)
+    for (int i = 1; i < input; i++)
     {
-        int count = 0;
-        count = i + 1;
-        int binary = 1;
+        
+        
 
-        for (int j = 0; j < count ; j++)
+        for (int j = 1; j < i ; j++)
         {
-            printf("%d",binary);
-            binary--;
+            if ( i % 2 == 0 && j%2 == 0|| (i %2 != 0 && j % 2 != 0)
+            {
+                printf("1");
+
+            }
+            else
+            {
+                printf("0");
+            }
+            
 
 
         }

@@ -14,40 +14,22 @@
 int main()
 {
     int input;
-    printf("Enter height between 1 and 5:");
+    printf("Enter height:");
     scanf("%d",&input);
 
 
-    for (int i = 0 ; i < input ; i++)
+    for (int i = 1, j = 1; i <= input ; j++)
     {
-        int count = 0;
-        count = i + 1;
-
-        switch (count)
+        if(j < i)
         {
-             
-            case 1:
-                printf("*");
-                printf("\n");
-                break;
-            case 2:
-                printf("**");
-                printf("\n");
-                break;
-            case 3:
-                printf("***");
-                printf("\n");
-                break;
-            case 4:
-                printf("****");
-                printf("\n");
-                break;
-            case 5:
-                printf("*****");
-                printf("\n");
-                break;
+            printf("*");
         }
-
+        else
+        {
+            printf("*\n");
+            j = 0;
+            i++;
+        }
 
     }
 
