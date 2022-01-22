@@ -31,3 +31,20 @@ int main()
 
     printf("\n");
 }
+
+
+
+
+
+/*
+
+int a=1,b =1,n,r;
+printf("Enter the length: ");
+scanf("%d",&n);
+for (int i = 1; i <=n ; i++)
+{
+    printf("%d\t",a);
+    r = a+ b;
+    a = b;
+    b = r;
+}   */
