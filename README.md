@@ -5,7 +5,7 @@
 
 ## 2 BASIC C
 
-### 2.10 (21/01/2022) ASSIGNMENT 10
+### 2.10 FUNCTIONS 1 (21/01/2022) ASSIGNMENT 10
 
 1) Modify the calculator program - write functions ,Add(),Sub(),Mul(),Div(),Mod(). Each function should take the 2 numbers as inputs parameters and return the result as output. Print the result in main function, in switch statement.
 
