@@ -5,7 +5,41 @@
 
 ## 2 BASIC C
 
-### 2.9 
+### 2.10 (21/01/2022) ASSIGNMENT 10
+
+1) Modify the calculator program - write functions ,Add(),Sub(),Mul(),Div(),Mod(). Each function should take the 2 numbers as inputs parameters and return the result as output. Print the result in main function, in switch statement.
+
+2) Write a function that takes principle, rate of interest and time in months as input arguments, and returns the total amount to be repayed, after calculation of simple interest.
+
+3) Write a function to determine if a character is alphanumeric or not. 
+        Hint: function can return a number to indicate alphanumeric (1) or not(0) and print the appropriate message in main function.
+
+4) Write a function that takes two numbers, a and n as input arguments and returns the value of a to the power of n.
+
+5) Write a function to accept a year as input and return 1 if the year is a leap year, otherwise 0.
+
+6) Write a function to accept two dates as input arguments, and return 1 if the first date is older, 0 if the second date is older.
+
+7) Write a function that accepts a month and year as input, and returns the number of days of the month as output. Print the number of days in a given month and year in main function by using this function.
+
+8) Write a function to accept a date as input and return 1 if it is valid, 0 if it is invalid. print the message in main function.
+
+9) Write a function to return the product of two numbers without using * operator.
+
+10) Write a function that can take an integer as input and return 1, if the number is prime number and 0 if it is not prime and print appropriate output message.
+        return type is integer.
+        IsPrime - returns int (0,1)
+
+11)Write a program with a function that takes two integer arguments, and prints all prime numbers between those numbers using the prime number function written above. return type should be void.
+        PrintAllPrimes - return type is void. Should use IsPrime()
+        Note: We can call anyfunction from any other function.
+
+12) Write a function that takes an integer parameter and prints its multiplication table.return type should be void.
+
+13) Write a function, that can take two integers as input, swap their values and print their new values.
+        return type should be void
+
+### 2.9 (18/01/2022) ASSIGNMENT 9
 
 1) Write a program to input a number and count the digits in it.
         
@@ -160,7 +194,7 @@ Print the following patterns for a given n (number of rows)
                  2 3 2
                    1           
 
-### 2.8 WHILE LOOP
+### 2.8 WHILE LOOP (10/01/2022) ASSIGNMENT 8
 
 1) Write a program to print all numbers from 1 to n.
 

@@ -13,11 +13,6 @@ int main()
     int digit_copy = digit;
     for( int i = 0; i < power ; i++)
     {
-        for(int j = 0; j < digit; j++)
-        {
-            sum = sum + digit_copy;
-        } 
-        digit_copy = digit_copy * digit_copy;
         
     }
     printf("The sum is: %d\n",sum);
