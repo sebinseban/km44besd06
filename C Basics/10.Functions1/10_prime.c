@@ -10,12 +10,14 @@ and 0 if it is not prime and print appropriate output message.
 int isPrime(int x)
 {
     int count = 0;
-    for (int i = 1; i <= x; i++)
+    for (int i = 2; i <= x; i++)
     {
         if (x % i == 0)
             count++;
+            return 1;
+            
     }
-    if (count == 2)
+    if (count == 1)
         return 1;
 
        
