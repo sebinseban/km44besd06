@@ -5,6 +5,8 @@
 
 ## 2 BASIC C
 
+
+
 ### 2.10 FUNCTIONS 1 (21/01/2022) ASSIGNMENT 10
 
 1) Modify the calculator program - write functions ,Add(),Sub(),Mul(),Div(),Mod(). Each function should take the 2 numbers as inputs parameters and return the result as output. Print the result in main function, in switch statement.
@@ -38,6 +40,10 @@
 
 13) Write a function, that can take two integers as input, swap their values and print their new values.
         return type should be void
+
+14) Write a function that takes two numbers, a and n as input arguments and returns the value of a to the power of n without using * operator.
+        Hint: call the multiplication function in power function.
+
 
 ### 2.9 (18/01/2022) ASSIGNMENT 9
 
