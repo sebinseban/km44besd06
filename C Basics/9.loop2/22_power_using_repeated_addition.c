@@ -10,10 +10,15 @@ int main()
     printf("Enter digit followed by power:");
     scanf("%d %d",&digit,&power);
 
+    sum = digit;
     int digit_copy = digit;
-    for( int i = 0; i < power ; i++)
+    for( int i = 1; i < power ; i++)
     {
-        
+        for (int j = 1; j < digit; j++)
+        {
+            sum = sum + digit_copy;
+        }
+        digit_copy = sum;
     }
     printf("The sum is: %d\n",sum);
 }
