@@ -12,6 +12,8 @@ int isLeapYear(int y)
         return 0;
     }
 
+    return 0;
+
 }
 int noofdaysinmonth(int m,int y)
 {
@@ -43,5 +45,6 @@ int noofdaysinmonth(int m,int y)
             }
 
     }
+    return 0;
 }
 
