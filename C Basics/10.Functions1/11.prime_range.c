@@ -27,9 +27,12 @@ int isprime(int n)
 
 void primeA(int n,int m)
 {
-    int k;
+    int k=0;
+
     for (; n <=m ; n++)
     {
+        if (n == 0 || n==1)
+            continue;
         if (k = isprime(n))    ;
         printf("%d ",k);
     }
