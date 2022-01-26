@@ -8,12 +8,12 @@
 int powerFunction( int a, int b)
 {
     int power = 1;
-    if (a == 0)
-    {
-        return 1;
-    }
+    
     for (int i = 0; i < b; i++)
     {
+        if (a == 0)
+            return 1;
+    
         power = power * a;
         
     }
