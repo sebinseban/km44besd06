@@ -8,44 +8,42 @@
 
 #include <stdio.h>
 
-void printAllPrimes (int a)
+int isprime(int n)
 {
-    printf("Prime number: %d \t",a);
-    return ;
+    int i = 2, count = 0;
+    while (i <=n/2)
+    {
+        if(n % i == 0)
+                count++;
+        i++;
+    }
+    if (count == 0)
+    return n;
+    else
+    return 0;
+
 }
 
-int isPrime(int x,int y)
-{
-    int  i, count = 0;
-    for (; x <= y; x++)
-    {
-        for (i = 2; i < x; i++)
-        {
-        if (x % i == 0)
-            count++;
-            break;
-        }
-        if (i == count)
-        {
-            printAllPrimes(x);
-        }
 
+void primeA(int n,int m)
+{
+    int k;
+    for (; n <=m ; n++)
+    {
+        if (k = isprime(n))    ;
+        printf("%d ",k);
     }
-    
-    
-       
-    
-    return 0;
+    printf("\n");
 }
 
 
 int main()
 {
-    int x,y;
-    printf("Enter start and stop limit: ");
-    scanf("%d %d",&x,&y);
+    int n,m;
+    printf("Enter two numbers: ");
+    scanf("%d %d",&n,&m);
 
-    isPrime(x,y);
+    primeA(n,m);
     return 0;
 
 }
