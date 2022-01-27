@@ -119,9 +119,9 @@ FileName: main.c
 
 FileName: daysinmonth.c
 
-2)int  NoOfDaysinMonth(int  m, int  y); // returns the number of days in a month  
+2)int  NoOfDaysinMonth(int  m, int  y);  // returns the number of days in a month  
 
-3)int  IsLeapYear(int   y); // checks if a year is leap year or not     
+3)int  IsLeapYear(int   y);  // checks if a year is leap year or not     
 
             
 FileName: calsal.c
