@@ -56,7 +56,7 @@ Date of birth of candidate#5: 29 2 2004
 
 Output: The candidate born on 4th March-2002 is elder of all
 
-### 2.11 GLOBAL VARIABLEs (26/01/2022) ASSIGNMENT 11
+### 2.11 GLOBAL VARIABLES (26/01/2022) ASSIGNMENT 11
 
 Rewrite the calculator program with add(), sub() etc functions like below:
 Here, operand variables mean the variables which store the numbers on which any operation is to be performed.
