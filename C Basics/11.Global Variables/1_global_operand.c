@@ -19,7 +19,7 @@ float Div ();
 
 float a,b,sum = 0;
 char ch;
-int a_,b_,sum_ = 0;
+
 
 
 int main()
@@ -51,7 +51,7 @@ int main()
             printf("Remainder: %d\n",Mod());
             break;
     }
-
+    return 0;
 }
 
 float Add()
@@ -81,5 +81,5 @@ float Div ()
 int Mod ()
 {
     sum = (int)a % (int)b;
-    return sum_;
+    return sum;
 }
