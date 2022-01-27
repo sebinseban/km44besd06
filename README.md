@@ -23,35 +23,52 @@ Whenever a date is scanned, verify if it is valid date or not. If it is not a va
 Functions: Create the below files and functions as per below given design. if you need any extra files, you may create as per requirement: 
 
 FileName: main.c
+
 1)main function  
+
 // reads date-of-birth, n times in a loop. every date is validated using isvaliddate function. if it is valid then compare and keep the oldest date in a seperate set of variables. If the date is not valid, ask the user to enter another date, and repeate till he enters a valid date. 
 //after loop is over, call printdateinformat and printsubscript functions to print the eldest date in required format.
 
 FileName: isvaliddate.c
+
 2) int  IsValidDate(int  d, int  m, int  y); // validates the date, returns 1 or 0
+
 3) int  IsLeapYear(int  y); // checks if a year is leap year or not    
 
 FileName: compare.c
+
 4) int  DateCompare(int  d1,int  m1,int  y1,int  d2,int  m2,int  y2); 
+
 // compares 2 dates, returns 1 or 2 to indicate which date is old.
 
 FileName: print.c
+
 5) void PrintDateinFormat(int  d,int  m,int  y); // prints the given date in ddss Month-yyyy format   
+
 6) void PrintSubscript(int d); // prints the subscript for the date in above date format( th, rd or st).    
 
 FileName: dates.h
+
 Declare all functions in this header file and include it in other files. Also include any required standard header files in this one only.
 
 Program should compile with zero warnings and zero errors when compiled with -Wall option.
 
 Example: 
+
 Input:  Number of candidates: 5
+
 Date of birth of candidate#1 : 3-4-2002
+
 Date of birth of candidate#2: 4 3 2001
+
 Date of birth of candidate#3: 29 2 2007
+
 Date is invalid, plz enter valid date : 31 4 2007
+
 Date is invalid, plz enter valid date : 30 4 2006
+
 Date of birth of candidate#4: 30 6 2003
+
 Date of birth of candidate#5: 29 2 2004
 
 Output: The candidate born on 4th March-2002 is elder of all
@@ -85,7 +102,9 @@ Write a Program for the following problem:
 1)Calculate the salary of an employee for a given month and year. 
 
 month, year, total monthly salary and numbeof r days of Loss of Pay (LOP) are provided as input. 
+
 Loss of Pay means the number of days for which employee wont get salary in that month.
+
 Validate the negative cases like –ve salary value entered, -ve date or –ve year in main function, before calling other functions. 
 Print the net salary in main function.
 
@@ -94,24 +113,32 @@ Note:(Program must compile with 0 warnings when compiled with –Wall option)
 Functions: Implement the below functions in seperate files as mentioned (File names are given above function names):
 
 FileName: main.c
+
 1)	main function. // takes input, calls calculatenetsalary function.
 
 
 FileName: daysinmonth.c
-2)int  NoOfDaysinMonth(int  m, int  y); // returns the number of days in a month         
+
+2)int  NoOfDaysinMonth(int  m, int  y); // returns the number of days in a month  
+
 3)int  IsLeapYear(int   y); // checks if a year is leap year or not     
 
             
 FileName: calsal.c
-3)int  CalculateNetSalary(int  total, int  lop, int  m, int  y); // calculates and returns the net salary for a given month & year  , uses  NoOfDaysinMonthto calculate the one day salary.
+
+3)int  CalculateNetSalary(int  total, int  lop, int  m, int  y); // calculates and returns the net salary for a given month & year uses  NoOfDaysinMonthto calculate the one day salary.
 
 
 Example:  Input:
+
 Total salary of the employee: 10000
+
 Month: 1 , Year: 2001
+
 Number of LOPs: 3 (LOP: Days for which he will not get salary)
 
 Hint: net salary : Total salary – Number of LOPS * Total salary / no of days in the given month
+
 i.e., net salary : 10000 - 3 * 10000 / 31 (January has 31 days)
 
 Output: Net payable salary is: 9032 /-       
