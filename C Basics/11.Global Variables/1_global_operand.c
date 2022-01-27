@@ -17,7 +17,7 @@ float Mul();
 float Div ();
 
 
-float a,b,sum = 0;
+float a,b;
 char ch;
 
 
@@ -56,30 +56,30 @@ int main()
 
 float Add()
 {
-    sum = a + b;
-    return sum;
+    return a + b;
+     
 }
 
 float Sub()
 {
-    sum = a - b;
-    return sum;
+    return a - b;
+    
 }
 
 float Mul()
 {
-    sum = a * b;
-    return sum;
+    return a * b;
+    
 }
 
 float Div ()
 {
-    sum = a / b;
-    return sum;
+    return a / b;
+    
 }
 
 int Mod ()
 {
-    sum = (int)a % (int)b;
-    return sum;
+    return (int)a % (int)b;
+    
 }
