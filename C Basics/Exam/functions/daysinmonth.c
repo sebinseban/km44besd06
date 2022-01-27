@@ -7,7 +7,7 @@ int isLeapYear(int y)
         
     }
     
-    else 
+    else         //no need of else, if doesnt execute , it will directly go to return 
     {
         return 0;
     }
@@ -35,7 +35,7 @@ int noofdaysinmonth(int m,int y)
             return 30;
         
         case 2:
-            if (isLeapYear(y) == 1)
+            if (isLeapYear(y) == 1)   //no need of checking ==1 ,just directly return 1 from isleapyear.
             {
                 return 28;
             }
