@@ -7,7 +7,7 @@
 
 ### KM44B LabTest C Functions 26JAN2022
 
-LAB Test: Write a program for the given problem below, and copy paste in below questions.
+#### LAB Test: Write a program for the given problem below, and copy paste in below questions.
 
 Your program will be validated and given marks based on how  you followed the instructions exactly and maintained the given design in your program, along with output.
 
@@ -56,7 +56,7 @@ Date of birth of candidate#5: 29 2 2004
 
 Output: The candidate born on 4th March-2002 is elder of all
 
-### 2.11 FUNCTIONS 2 (26/01/2022) ASSIGNMENT 11
+### 2.11 GLOBAL VARIABLEs (26/01/2022) ASSIGNMENT 11
 
 Rewrite the calculator program with add(), sub() etc functions like below:
 Here, operand variables mean the variables which store the numbers on which any operation is to be performed.
