@@ -10,8 +10,50 @@ without passing as arguments.
 Function returns the result as return value. */
 
 #include <stdio.h>
-float a, b,sum=0;
+int Mod ();
+float Add();
+float Sub();
+float Mul();
+float Div ();
+
+
+float a,b,sum = 0;
+char ch;
 int a_,b_,sum_ = 0;
+
+
+int main()
+{
+    
+    
+    printf("Enter two numbers in the order x * y: ");
+    scanf("%f %c %f",&a,&ch,&b);
+
+    switch(ch)
+    {
+        case '+':
+            printf("SUM: %0.2f\n",Add());
+            break;
+
+        case '-':
+            printf("Difference: %0.2f\n",Sub());
+            break;
+
+        case '*':
+            printf("Product: %0.2f\n",Mul());
+            break;
+
+        case '/':
+            printf("Quotient: %0.2f\n",Div());
+            break;
+
+        case '%':
+            printf("Remainder: %d\n",Mod());
+            break;
+    }
+
+}
+
 float Add()
 {
     sum = a + b;
@@ -38,38 +80,6 @@ float Div ()
 
 int Mod ()
 {
-    sum_ = a_ % b_;
+    sum = (int)a % (int)b;
     return sum_;
-}
-
-int main()
-{
-    float x,y,sum = 0;
-    char ch;
-    printf("Enter two numbers in the order x * y: ");
-    scanf("%f %c %f",&x,&ch,&y);
-
-    switch(ch)
-    {
-        case '+':
-            printf("SUM: %0.2f\n",Add());
-            break;
-
-        case '-':
-            printf("Difference: %0.2f\n",Sub());
-            break;
-
-        case '*':
-            printf("Product: %0.2f\n",Mul());
-            break;
-
-        case '/':
-            printf("Quotient: %0.2f\n",Div());
-            break;
-
-        case '%':
-            printf("Remainder: %d\n",Mod());
-            break;
-    }
-
 }
