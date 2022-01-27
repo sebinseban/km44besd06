@@ -4,12 +4,9 @@
 //the operator as an argument. result should be printed in function itself without returning.
 
 #include <stdio.h>
-int Mod ();
-float Add();
-float Sub();
-float Mul();
-float Div ();
 
+
+float Calculator(char ch);
 
 float a,b,sum = 0;
 char ch;
@@ -23,43 +20,29 @@ int main()
     printf("Enter two numbers in the order x * y: ");
     scanf("%f %c %f",&a,&ch,&b);
 
-    switch(ch)
-    {
-        case '+':
-            
-
-    }    
+    Calculator(ch);  
 }
 
-float Add()
+float Calculator(char ch)
 {
+    if (ch == '+')
     printf("SUM: %0.2f\n",a + b);
-    return 0;
-     
-}
-
-float Sub()
-{
+    
+    else if (ch == '-')
     printf("Difference: %0.2f\n", a - b);
-    return 0;
     
-}
 
-float Mul()
-{
+    else if (ch == '*')
     printf("Product: %0.2f\n",a * b);
-    return 0;
-}
-
-float Div ()
-{
-    printf("Quotient: %0.2f\n",a / b);
-    return 0;
-}
-
-int Mod ()
-{
-    printf("Remainder: %d\n",(int)a % (int)b);
     
+    else if (ch == '/')
+    printf("Quotient: %0.2f\n",a / b);
+    
+    else if (ch == '%')
+    printf("Remainder: %d\n",(int)a % (int)b);
+
     return 0;
+    
+
 }
+
