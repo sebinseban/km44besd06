@@ -17,7 +17,8 @@ Sales : Has one function:
 
 Purchase : Has one function 
 
-        Purchase – will increase the stock by the number of items purchased.Set a max value for stock, before purchasing check if the stock room has enough space for new items or not.
+        Purchase – will increase the stock by the number of items purchased.
+        Set a max value for stock, before purchasing check if the stock room has enough space for new items or not.
 
 SuperMarket : 
 
