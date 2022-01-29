@@ -5,6 +5,10 @@
 
 ## 2 BASIC C
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ### 2.12 STORAGE CLASSES (29/01/2022) ASSIGNMENT 12
 
 "WAP - for the 4 departments of a super market : Sales, Purchase, Stock and SuperMarket in four different source code files.
@@ -26,11 +30,12 @@ Display menu with choices :
 
         1) check AvailableStock 
 
-        2) Purchase new items 
+        2) Purchase new items  : maximum limit should be 500, if more than that, tell "Cant be purchased this time"
 
-        3) Sell items … this should be continuous as long as the user wants to continue. 
+        3) Sell items : this should be continuous as long as the user wants to continue. 
 
-Program should stop when the user wants to quit.
+        4)Program should stop when the user wants to quit.
+
 ### KM44B LabTest C Functions 26JAN2022
 
 #### LAB Test: Write a program for the given problem below, and copy paste in below questions.
