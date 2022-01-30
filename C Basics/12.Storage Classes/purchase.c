@@ -1,6 +1,6 @@
 #include "super.h"
 extern int stock;
-int purchaseNewStock()    //maximum limit should be 500
+int purchaseNewStock()    //maximum limit should be 1000
 {
     
     int purchase;
