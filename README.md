@@ -117,11 +117,11 @@ Here, operand variables mean the variables which store the numbers on which any 
 Operation functions means `add()`, `sub()` etc functions.
 operator variable is the variable that stores the character '+','-' etc as entered by the user.
 
-1 ) Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function returns the result as return value.
+1.Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function returns the result as return value.
 
-2 ) Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function return value should be stored in another global variable in operations file and be used to print in main.
+2.Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function return value should be stored in another global variable in operations file and be used to print in main.
 
-3 ) Create the operand variables as global variables and the operator as an argument. result should be printed in function itself without returning.
+3.Create the operand variables as global variables and the operator as an argument. result should be printed in function itself without returning.
 
 
 ### KM44B LabTest C Functions 24 JAN2022
