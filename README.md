@@ -60,21 +60,29 @@ FileName: main.c
 
 FileName: isvaliddate.c
 
-2) int  IsValidDate(int  d, int  m, int  y); // validates the date, returns 1 or 0
+2) `int  IsValidDate(int  d, int  m, int  y)` 
 
-3) int  IsLeapYear(int  y); // checks if a year is leap year or not    
+// validates the date, returns 1 or 0
+
+3) `int  IsLeapYear(int  y)`
+
+// checks if a year is leap year or not    
 
 FileName: compare.c
 
-4) int  DateCompare(int  d1,int  m1,int  y1,int  d2,int  m2,int  y2); 
+4) `int  DateCompare(int  d1,int  m1,int  y1,int  d2,int  m2,int  y2); `
 
 // compares 2 dates, returns 1 or 2 to indicate which date is old.
 
 FileName: print.c
 
-5) `void PrintDateinFormat(int  d,int  m,int  y)`; // prints the given date in ddss Month-yyyy format   
+5) `void PrintDateinFormat(int  d,int  m,int  y);`
 
-6) `void PrintSubscript(int d)` ; // prints the subscript for the date in above date format( th, rd or st).    
+ // prints the given date in ddss Month-yyyy format   
+
+6) `void PrintSubscript(int d);`  
+
+// prints the subscript for the date in above date format( th, rd or st).    
 
 FileName: dates.h
 
@@ -106,7 +114,7 @@ Output: The candidate born on 4th March-2002 is elder of all
 
 Rewrite the calculator program with add(), sub() etc functions like below:
 Here, operand variables mean the variables which store the numbers on which any operation is to be performed.
-Operation functions means add(), sub() etc functions.
+Operation functions means `add()`, `sub()` etc functions.
 operator variable is the variable that stores the character '+','-' etc as entered by the user.
 
 1 ) Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function returns the result as return value.
@@ -143,19 +151,27 @@ Functions: Implement the below functions in seperate files as mentioned (File na
 
 FileName: main.c
 
-1)	main function. // takes input, calls calculatenetsalary function.
+1) `main (int , int )` 
+
+// takes input, calls calculatenetsalary function.
 
 
 FileName: daysinmonth.c
 
-2)int  NoOfDaysinMonth(int  m, int  y);  // returns the number of days in a month  
+2)`int  NoOfDaysinMonth(int  m, int  y);`  
 
-3)int  IsLeapYear(int   y);  // checks if a year is leap year or not     
+// returns the number of days in a month  
+
+3)`int  IsLeapYear(int   y);`
+
+// checks if a year is leap year or not     
 
             
 FileName: calsal.c
 
-3)int  CalculateNetSalary(int  total, int  lop, int  m, int  y); // calculates and returns the net salary for a given month & year uses  NoOfDaysinMonthto calculate the one day salary.
+3)`int  CalculateNetSalary(int  total, int  lop, int  m, int  y);` 
+
+// calculates and returns the net salary for a given month & year uses  NoOfDaysinMonthto calculate the one day salary.
 
 
 Example:  Input:
@@ -175,7 +191,7 @@ Output: Net payable salary is: 9032 /-
 
 ### 2.10 FUNCTIONS 1 (21/01/2022) ASSIGNMENT 10
 
-1) Modify the calculator program - write functions ,Add(),Sub(),Mul(),Div(),Mod(). Each function should take the 2 numbers as inputs parameters and return the result as output. Print the result in main function, in switch statement.
+1) Modify the calculator program - write functions `Add()`,`Sub()`,`Mul()`,`Div()`,`Mod()`. Each function should take the 2 numbers as inputs parameters and return the result as output. Print the result in main function, in switch statement.
 
 2) Write a function that takes principle, rate of interest and time in months as input arguments, and returns the total amount to be repayed, after calculation of simple interest.
 
@@ -199,7 +215,7 @@ Output: Net payable salary is: 9032 /-
         IsPrime - returns int (0,1)
 
 11)Write a program with a function that takes two integer arguments, and prints all prime numbers between those numbers using the prime number function written above. return type should be void.
-        PrintAllPrimes - return type is void. Should use IsPrime()
+        `PrintAllPrimes()` - return type is void. Should use `IsPrime()`
         Note: We can call anyfunction from any other function.
 
 12) Write a function that takes an integer parameter and prints its multiplication table.return type should be void.
