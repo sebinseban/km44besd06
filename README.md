@@ -5,9 +5,7 @@
 
 ## 2 BASIC C
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 
 ### 2.12 STORAGE CLASSES (29/01/2022) ASSIGNMENT 12
 
@@ -74,9 +72,9 @@ FileName: compare.c
 
 FileName: print.c
 
-5) void PrintDateinFormat(int  d,int  m,int  y); // prints the given date in ddss Month-yyyy format   
+5) `void PrintDateinFormat(int  d,int  m,int  y)`; // prints the given date in ddss Month-yyyy format   
 
-6) void PrintSubscript(int d); // prints the subscript for the date in above date format( th, rd or st).    
+6) `void PrintSubscript(int d)` ; // prints the subscript for the date in above date format( th, rd or st).    
 
 FileName: dates.h
 
