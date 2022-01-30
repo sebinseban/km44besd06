@@ -34,6 +34,19 @@ Display menu with choices :
 
         4)Program should stop when the user wants to quit.
 
+**USE THIS TABLE TO UNDERSTAND STORAGE CLASSES**
+
+|Place of Declaration |SC |SCS |POS |DV |LIFETIME |SCOPE |
+|--- |--- |--- |--- |--- |--- |--- |
+|LOCAL(default) |automatic| auto | stack | GV| short(EOF)| EOB|
+|GLOBAL(default) | external | extern | data | 0 | long(EOP)|EOF
+|LOCAL| local static| static| data| 0 | long(EOP)| EOF|
+|GLOBAL| global static| static| data| 0 | long(EOP) | EOB|
+|LOCAL| register | register | CPU GP registers | GV | short(EOF)| EOB|
+
+
+
+
 ### KM44B LabTest C Functions 26JAN2022
 
 #### LAB Test: Write a program for the given problem below, and copy paste in below questions.
@@ -60,7 +73,7 @@ FileName: main.c
 
 FileName: isvaliddate.c
 
-2) `int  IsValidDate(int  d, int  m, int  y)` 
+2) `int  IsValidDate(int  d, int  m, int  y)`
 
 // validates the date, returns 1 or 0
 
