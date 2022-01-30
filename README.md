@@ -1,6 +1,6 @@
-# KM44BESD06
+# **KM44BESD06**
 
-"Sebin Sebastian" Lab Assignments Repo"
+**Sebin Sebastian's** Lab Assignments Repo
 
 
 ## 2 BASIC C
@@ -26,13 +26,13 @@ SuperMarket :
 
 Display menu with choices : 
 
-        1) check AvailableStock 
+        1. Check AvailableStock 
 
-        2) Purchase new items  : maximum limit should be 500, if more than that, tell "Cant be purchased this time"
+        2. Purchase new items  : maximum limit should be 500, if more than that, tell "Cant be purchased this time"
 
-        3) Sell items : this should be continuous as long as the user wants to continue. 
+        3. Sell items : this should be continuous as long as the user wants to continue. 
 
-        4)Program should stop when the user wants to quit.
+        4. Program should stop when the user wants to quit.
 
 **USE THIS TABLE TO UNDERSTAND STORAGE CLASSES**
 
@@ -66,42 +66,42 @@ Functions: Create the below files and functions as per below given design. if yo
 
 FileName: main.c
 
-1)main function  
+1. main function  
 
-// reads date-of-birth, n times in a loop. every date is validated using isvaliddate function. if it is valid then compare and keep the oldest date in a seperate set of variables. If the date is not valid, ask the user to enter another date, and repeate till he enters a valid date. 
-//after loop is over, call printdateinformat and printsubscript functions to print the eldest date in required format.
+        // reads date-of-birth, n times in a loop. every date is validated using isvaliddate function. if it is valid then compare and keep the oldest date in a seperate set of variables. If the date is not valid, ask the user to enter another date, and repeate till he enters a valid date. 
+        //after loop is over, call printdateinformat and printsubscript functions to print the eldest date in required format.
 
 FileName: isvaliddate.c
 
-2) `int  IsValidDate(int  d, int  m, int  y)`
+2. `int  IsValidDate(int  d, int  m, int  y)`
 
-// validates the date, returns 1 or 0
+        // validates the date, returns 1 or 0
 
-3) `int  IsLeapYear(int  y)`
+3. `int  IsLeapYear(int  y)`
 
-// checks if a year is leap year or not    
+        // checks if a year is leap year or not    
 
 FileName: compare.c
 
-4) `int  DateCompare(int  d1,int  m1,int  y1,int  d2,int  m2,int  y2); `
+4. `int  DateCompare(int  d1,int  m1,int  y1,int  d2,int  m2,int  y2); `
 
-// compares 2 dates, returns 1 or 2 to indicate which date is old.
+        // compares 2 dates, returns 1 or 2 to indicate which date is old.
 
 FileName: print.c
 
-5) `void PrintDateinFormat(int  d,int  m,int  y);`
+5. `void PrintDateinFormat(int  d,int  m,int  y);`
 
- // prints the given date in ddss Month-yyyy format   
+        // prints the given date in ddss Month-yyyy format   
 
-6) `void PrintSubscript(int d);`  
+6. `void PrintSubscript(int d);`  
 
-// prints the subscript for the date in above date format( th, rd or st).    
+        // prints the subscript for the date in above date format( th, rd or st).    
 
 FileName: dates.h
 
 Declare all functions in this header file and include it in other files. Also include any required standard header files in this one only.
 
-Program should compile with zero warnings and zero errors when compiled with -Wall option.
+**Program should compile with zero warnings and zero errors when compiled with -Wall option.**
 
 Example: 
 
@@ -130,11 +130,11 @@ Here, operand variables mean the variables which store the numbers on which any 
 Operation functions means `add()`, `sub()` etc functions.
 operator variable is the variable that stores the character '+','-' etc as entered by the user.
 
-1.Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function returns the result as return value.
+1. Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function returns the result as return value.
 
-2.Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function return value should be stored in another global variable in operations file and be used to print in main.
+2. Create the operand variables as global variables and use them in the operation functions directly, without passing as arguments. Function return value should be stored in another global variable in operations file and be used to print in main.
 
-3.Create the operand variables as global variables and the operator as an argument. result should be printed in function itself without returning.
+3. Create the operand variables as global variables and the operator as an argument. result should be printed in function itself without returning.
 
 
 ### KM44B LabTest C Functions 24 JAN2022
@@ -143,13 +143,13 @@ LAB Test: Write a program for the given problem below, and copy paste them in th
 
 Your program will be validated and given marks based on how  you followed the instructions exactly and maintained the given design in your program, along with output. Do not change the given design or write your own design. 
 
-Exam timings: 6.00pm to 7.30pm. After 7.30pm ,form will stop accepting responses. You can edit your submission any number of times before 7.30pm. After 7.30pm do not edit your response even if it doesnt close as the time stamp will get updated.
+**Exam timings: 6.00pm to 7.30pm. After 7.30pm ,form will stop accepting responses. You can edit your submission any number of times before 7.30pm. After 7.30pm do not edit your response even if it doesnt close as the time stamp will get updated.**
 
 Question carries 20 marks .
 
 Write a Program for the following problem:
 
-1)Calculate the salary of an employee for a given month and year. 
+1.Calculate the salary of an employee for a given month and year. 
 
 month, year, total monthly salary and numbeof r days of Loss of Pay (LOP) are provided as input. 
 
@@ -166,25 +166,25 @@ FileName: main.c
 
 1) `main (int , int )` 
 
-// takes input, calls calculatenetsalary function.
+        // takes input, calls calculatenetsalary function.
 
 
 FileName: daysinmonth.c
 
 2)`int  NoOfDaysinMonth(int  m, int  y);`  
 
-// returns the number of days in a month  
+        // returns the number of days in a month  
 
 3)`int  IsLeapYear(int   y);`
 
-// checks if a year is leap year or not     
+        // checks if a year is leap year or not     
 
             
 FileName: calsal.c
 
 3)`int  CalculateNetSalary(int  total, int  lop, int  m, int  y);` 
 
-// calculates and returns the net salary for a given month & year uses  NoOfDaysinMonthto calculate the one day salary.
+        calculates and returns the net salary for a given month & year uses  NoOfDaysinMonthto calculate the one day salary.
 
 
 Example:  Input:
