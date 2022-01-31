@@ -8,19 +8,14 @@ Display menu with choices :
         1) check AvailableStock
         2) Purchase new items  : maximum limit should be 500, if more than that, tell "Cant be purchased this time"
         3) Sell items : this should be continuous as long as the user wants to continue. 
-        4) Program should stop when the user wants to quit. */
+        4)Program should stop when the user wants to quit. */
 
 
 
 #include "super.h"
 
 extern int stock;
-extern int total_sales;
-extern int item_sales;
-extern int remaining;
-extern int purchases_made;
-extern int purchases;
- 
+
 int main()
 {
     int input;
@@ -38,7 +33,7 @@ int main()
             switch (input)
             {
                 case 1:
-                    printf("\nRemaining stock is: %d\n\n",stock);
+                    printf("Remaining stock is: %d\n",stock);
                     break;
                 case 2: //Purchase
                     purchaseNewStock();
@@ -50,12 +45,6 @@ int main()
                     break;
                 case 4:
                     printf("Bye. Thanks for shopping with us.\n");
-                    printf("\nREPORT FOR THIS SESSION\n");
-                    printf("Total stock remaining: %d \n",stock);
-                    printf("Total numbes of sales done : %d \n",total_sales);
-                    printf("Total number of items sold : %d \n",remaining);
-                    printf("Total number of purchases made : %d \n",purchases);
-                    printf("Total number of items purchased : %d \n",purchases_made );
                     return 0;
                     break;
                 

@@ -54,8 +54,8 @@ int main()
                     printf("Total stock remaining: %d \n",stock);
                     printf("Total numbes of sales done : %d \n",total_sales);
                     printf("Total number of items sold : %d \n",remaining);
-                    printf("Total number of purchases made : %d \n",purchases);
-                    printf("Total number of items purchased : %d \n",purchases_made );
+                    printf("Total number of purchases made : %d \n",purchases );
+                    printf("Total number of items purchased : %d \n",purchases_made);
                     return 0;
                     break;
                 
