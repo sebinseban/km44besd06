@@ -8,7 +8,7 @@ Print the array. Find out the biggest and smallest numbers and their indexes and
 int main()
 {
     // Declaring an array of size 10
-    int arr[10], smallest , largest;
+    int arr[10], smallest , largest, subscript_smallest , subscript_largest ;
 
 
     // For loop for user to enter 10 values to the indexes 0 to 9 in array
@@ -25,6 +25,7 @@ int main()
 
     // Two variables to compare with array contents and store the largest or smallest
     smallest = arr[0];
+    
     largest = 0;
 
     
@@ -33,14 +34,16 @@ int main()
         if ( arr[i] > largest)
         {
             largest = arr[i];
+            subscript_largest = i;
         }
         if (!(arr[i] > smallest))
         {
             smallest = arr[i];
+            subscript_smallest = i;
         }
     }
-    printf("Largest: %d\n",largest);
-    printf("Smallest: %d\n",smallest);
+    printf("\nLargest: %d\nIndex of largest element is %d \n",largest,subscript_largest +1  );
+    printf("Smallest: %d\nIndex of smallest element is %d\n",smallest, subscript_smallest+1);
 
     
 }
