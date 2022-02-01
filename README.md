@@ -5,11 +5,71 @@
 
 ## 2 BASIC C
 
+### 2.13 ARRAYS (01/02/2022) ASSIGNMENT 13
+
+1. Write the following program : 
+
+        Declare an integer array of size 100.
+        Assign numbers 1-100 to each element of the array.
+        Print all the numbers.
+        Print all even elements.
+        Print all odd elements.
+        Add 5 to each element and print 6 – 105 numbers.
+
+2. Declare an array of size 10. Enter 10 elements and save them in the array. Print the array. Find out the biggest and smallest numbers and their indexes and print. 
+
+3. Write a program to search for a specific element given by the user, in an array and display its index. 
+
+4. Write a program to find the sum of all elements in an integer array, and print the sum.
+
+5. Try experimenting with the below array syntaxes and see the results,check their sizes, try to also read values for elements and print them:
+```
+        int arr[5] = {};
+        int arr[10] = {2.4,5.6,7.3};
+        int arr[3] = {1,2,3,4,5};
+        int arr[0] = {};
+        int arr[0] = {1,2,3,4,5};
+        int arr[] = {};
+        int arr[‘a’];
+```
+
+6. Write a program to print an array in reverse order
+        
+```
+        Input : array1 ={1,2,3,4,5};
+        Output : array1 = {5,4,3,2,1};
+```
+        
+
+7. Write a program to reverse an array and print it:  
+```
+        Input : array1 ={1,2,3,4,5};
+
+        Output : array1 = {5,4,3,2,1};
+```
+
+8)Write a program to print an integer in binary format.
+
+9)"Write a program to swap two arrays in reverse order.
+"
+
+eg., array1 = {1,2,3,4,5};
+array2 = { 6,7,8,9,10};
+
+output
+
+array1 = {10,9,8,7,6}
+array2 = {5,4,3,2,1}
+
+10) Write a code in C to receive an array of different integer values, and produce another array(list) of only the duplicated values in the original array, if a duplicate value is found more than once, the list shall only show one value, order is not important.
+
+11)An array contains some numbers. You need to find out how many times the biggest number has occurred in that array in a single loop (one loop to find the biggest and also to count the biggest)
 
 
 ### 2.12 STORAGE CLASSES (29/01/2022) ASSIGNMENT 12
 
-"WAP - for the 4 departments of a super market : Sales, Purchase, Stock and SuperMarket in four different source code files.
+
+1)Write a program for the 4 departments of a super market : Sales, Purchase, Stock and SuperMarket in four different source code files.
 
 Stock : Maintains a variable for available stock.
 
@@ -34,6 +94,7 @@ Display menu with choices :
 
         4. Program should stop when the user wants to quit.
 
+
 **USE THIS TABLE TO UNDERSTAND STORAGE CLASSES**
 
 |Place of Declaration |SC |SCS |POS |DV |LIFETIME |SCOPE |
@@ -44,7 +105,11 @@ Display menu with choices :
 |GLOBAL| global static| static| data| 0 | long(EOP) | EOB|
 |LOCAL| register | register | CPU GP registers | GV | short(EOF)| EOB|
 
-2)Supermarket Version 2.0
+
+2)Supermarket Version 2.0 
+
+Following modifications should be made to the supermarket program version 1.0
+
 
 3)WAP - with a function that prints the following message every nth time it is called 
 
