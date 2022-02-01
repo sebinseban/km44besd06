@@ -23,14 +23,14 @@ int purchaseNewStock()    //maximum limit should be 1000
         //printf("Warehouse has capacity of 1000 only. Already %d stock in warehouse.\n",stock);
         printf("Cannot purchase %d stock now, warehouse will be full. But can purchase %d stock.\n", purchase, 1000 - stock);
 
-        printf("1.Buy %d stocks now.\n",1000 - stock);
-        printf("2.Cancel purchase order.\n");
+        printf("\t1.Buy %d stocks now.\n",1000 - stock);
+        printf("\t2.Cancel purchase order.\n");
         
         //infinite loop for user to enter either 1 or 2 only. will be reprompted until correct input is given
         do 
         {
             
-            printf("Option: ");
+            printf("\tOption: ");
             scanf("%d",&purchase_choice);
         }
         while (!(purchase_choice >= 1 && purchase_choice <= 2));
@@ -38,14 +38,14 @@ int purchaseNewStock()    //maximum limit should be 1000
         if (purchase_choice == 1)
         {
             purchases_made = purchases_made + (1000 - stock);
-            printf("%d more stock purchased.\n",1000 - stock);
+            printf("\t%d more stock purchased.\n",1000 - stock);
             stock = stock + (1000 - stock); 
             purchases++;
 
         }
         else if (purchase_choice == 2)
         {
-            printf("The purchase order has been cancelled.\n");
+            printf("\tThe purchase order has been cancelled.\n");
         }
 
     }

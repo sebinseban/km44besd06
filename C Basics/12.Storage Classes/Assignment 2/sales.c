@@ -6,7 +6,7 @@ int remaining;
 int sellStock()                  //function to reduce stock from original stock variable in stock.c file
 {
     int sell_stock;
-    printf("Enter amount of stock to be sold: ");
+    printf("\nEnter amount of stock to be sold: ");
     scanf("%d",&sell_stock);
 
     if (stock == 0)
@@ -27,7 +27,7 @@ int sellStock()                  //function to reduce stock from original stock 
     {
         int choice;
         printf("Order greater than stock remaining. Choose below options.\n");
-        printf("\t1.Sell available.(%d stock available and can be sold now.)\n\n",stock);
+        printf("\t1.Sell available.(%d stock available and can be sold now.)\n",stock);
         printf("\t2.Cancel entire order\n");
 
         //infinite loop for user to enter either 1 or 2 only. will be reprompted until correct input is given
@@ -40,10 +40,10 @@ int sellStock()                  //function to reduce stock from original stock 
 
         if (choice == 1)
         {
-            int new = 0;
+            
             remaining = remaining + stock;
             //item_sales = item_sales + (stock - sell_stock);
-            printf("%d stock sold.\n", stock );
+            printf("\t%d stock sold.\n", stock );
             stock = 0;
             total_sales++;
             //printf("%d remaining stock.\n", stock );

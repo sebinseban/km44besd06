@@ -12,8 +12,16 @@ int main()
 {
     int n;
     printf("Enter the n'th value (must be positive integer): ");
-    scanf("%d",&n);
     
+    
+    do
+    {
+        scanf("%d",&n);
+    } while ( n <= 0);
+    
+
+
+
 
     for (int i = 1; i <= n ; i++)
     {
