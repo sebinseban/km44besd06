@@ -23,47 +23,57 @@
 4. Write a program to find the sum of all elements in an integer array, and print the sum.
 
 5. Try experimenting with the below array syntaxes and see the results,check their sizes, try to also read values for elements and print them:
-```
-        int arr[5] = {};
-        int arr[10] = {2.4,5.6,7.3};
-        int arr[3] = {1,2,3,4,5};
-        int arr[0] = {};
-        int arr[0] = {1,2,3,4,5};
-        int arr[] = {};
-        int arr[‘a’];
-```
+
+
+`int arr[5] = {};`
+
+`int arr[10] = {2.4,5.6,7.3};`
+
+`int arr[3] = {1,2,3,4,5};`
+
+`int arr[0] = {};`
+
+`int arr[0] = {1,2,3,4,5};`
+
+`int arr[] = {};`
+
+`int arr[‘a’];`
+
+
+
 
 6. Write a program to print an array in reverse order
         
-```
-        Input : array1 ={1,2,3,4,5};
-        Output : array1 = {5,4,3,2,1};
-```
+`Input : array1 ={1,2,3,4,5};`
+
+`Output : array1 = {5,4,3,2,1};`
+
         
 
 7. Write a program to reverse an array and print it:  
-```
-        Input : array1 ={1,2,3,4,5};
 
-        Output : array1 = {5,4,3,2,1};
-```
+`Input : array1 ={1,2,3,4,5};`
 
-8)Write a program to print an integer in binary format.
+`Output : array1 = {5,4,3,2,1};`
 
-9)"Write a program to swap two arrays in reverse order.
-"
 
-eg., array1 = {1,2,3,4,5};
-array2 = { 6,7,8,9,10};
+8. Write a program to print an integer in binary format.
 
-output
+9. Write a program to swap two arrays in reverse order.
 
-array1 = {10,9,8,7,6}
-array2 = {5,4,3,2,1}
+        array1 = {1,2,3,4,5};
 
-10) Write a code in C to receive an array of different integer values, and produce another array(list) of only the duplicated values in the original array, if a duplicate value is found more than once, the list shall only show one value, order is not important.
+        array2 = { 6,7,8,9,10};
 
-11)An array contains some numbers. You need to find out how many times the biggest number has occurred in that array in a single loop (one loop to find the biggest and also to count the biggest)
+        Output
+
+        array1 = {10,9,8,7,6}
+
+        array2 = {5,4,3,2,1}
+
+10. Write a code in C to receive an array of different integer values, and produce another array (list) of only the duplicated values in the original array, if a duplicate value is found more than once, the list shall only show one value, order is not important.
+
+11. An array contains some numbers. You need to find out how many times the biggest number has occurred in that array in a single loop. (one loop to find the biggest and also to count the biggest)
 
 
 ### 2.12 STORAGE CLASSES (29/01/2022) ASSIGNMENT 12
