@@ -42,16 +42,13 @@ int main()
     int j_counter = 0;
 
     for (int i = 0 ; i < size ; i++)
-    {
-        
+    {      
         for (int j = 0; j < size ; j++)
-        {
-            
+        {     
             if ( compare_value == arr[j])
             {
                 //printf("repeated at j =  %d\n",j);
-                count++;
-                
+                count++;          
             }
             if (count == 2)
             {

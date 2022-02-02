@@ -7,7 +7,11 @@
 int main()
 {
     int input, temp,div ;
-    int arr[32] = {};
+
+
+    int arr[32] = {};   //why 32 , each digit will take 4 bits
+
+
     printf("Enter an integer: ");
     scanf("%d",&input);
 
