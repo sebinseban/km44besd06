@@ -16,13 +16,15 @@
         Print all odd elements.
         Add 5 to each element and print 6 – 105 numbers.
 
-2. Declare an array of size 10. Enter 10 elements and save them in the array. Print the array. Find out the biggest and smallest numbers and their indexes and print. 
+2. Declare an array of size 10. Enter 10 elements and save them in the array. Print the array. Find out the biggest and smallest numbers and their indexes and print it. 
 
 3. Write a program to search for a specific element given by the user, in an array and display its index. 
 
 4. Write a program to find the sum of all elements in an integer array, and print the sum.
 
-5. Try experimenting with the below array syntaxes and see the results,check their sizes, try to also read values for elements and print them:
+5. Try experimenting with the below array syntaxes and see the results. 
+
+Check their sizes, try to also read values for elements and print them:
 
 
 `int arr[5] = {};`
@@ -39,13 +41,13 @@
 
 `int arr[‘a’];`
 
-6. Write a program to print an array in reverse order
+6. Write a program to print an array in reverse order. Do not change the contents of array 1 (don't rewrite)
         
 `Input : array1 ={1,2,3,4,5};`
 
 `Output : array1 = {5,4,3,2,1};`
 
-7. Write a program to reverse an array and print it:  
+7. Write a program to reverse an array and print it:  (change the contents of array to new reversed content and then print them)
 
 `Input : array1 ={1,2,3,4,5};`
 

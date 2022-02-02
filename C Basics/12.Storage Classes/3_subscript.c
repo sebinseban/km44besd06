@@ -6,41 +6,48 @@ Print the appropriate subscript after the n, depending on the last digit. Output
 
 
 #include <stdio.h>
-void printSubScript(int n);
-
+void printSubScript(void);
+int n;
 int main()
 {
-    int n;
+    
     printf("Enter the n'th value (must be positive integer): ");
     scanf("%d",&n);
     
-
-    for (int i = 1; i <= n ; i++)
-    {
+    printSubScript();
+    
+    /*for (int i = 1; i <= n ; i++)
+    //{
         printf("I am called %d",i);
         printSubScript(i);
         printf(" time.\n");
-    }
+    }*/
+
     return 0;
 }
 
-void printSubScript(int n)
+void printSubScript(void)
 {
+    printf("I am called %d",n);
+
     int d = n % 10;
     switch (d)
      {
         case 1:
-            printf("st");
+            printf("st time");
             break;
         case 2:
-            printf("nd");
+            printf("nd time");
             break;
         case 3:
-            printf("rd");
+            printf("rd time");
             break;
         default:
-            printf("th");
+            printf("th time");
+
 
     }
+    printf("\n");
+
     
 }
