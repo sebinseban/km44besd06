@@ -36,7 +36,7 @@ int main()
     int last = size - 1;
     for (int i = 0 ; i < size / 2 ; i++)
     {
-        // block to reverse array 1 and store into array 1 itself
+        // Block to reverse array 1 and store into array 1 itself
         temp = arr1[i];
         arr1[i] = arr1[last];
         arr1[last] = temp;
@@ -48,6 +48,7 @@ int main()
         last--;
     }
 
+    // Block to store contents of array1 into array2 and vice versa
     for (int i = 0; i < size ; i++)
     {
         temp3 = arr1[i];
