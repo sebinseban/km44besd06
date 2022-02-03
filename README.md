@@ -5,6 +5,29 @@
 
 ## 2 BASIC C
 
+### 2.14 STRINGS (03/02/2022) ASSIGNMENT 14
+
+1. Write a program to implement the string length functionality in a seperate function.
+        `int strlen (char str[]);`
+
+2. Write a program to implement the string copy functionality in a seperate function.
+        `void strcpy (char s1[], char s2[];`
+
+3. Write a program to implement the string concatenation functionality in a seperate function.
+        `void strcat (char s1[], char s2[]);`
+
+4. Write a program to convert all characters in an array to lowercase letters.
+        `void strlwr (char s[]);`
+
+5. Write a program to convert all the characters in an array to uppercase letters.
+        `void strupr (char s[]);`
+
+6. Write a program to reverse all the characters in an array.
+        `void strrev (char str[]);`
+
+7. Write a program to search a char inside an array and print its index.
+        `int strchr (char s[], char c);`
+
 ### 2.13 ARRAYS (01/02/2022) ASSIGNMENT 13
 
 1. Write the following program : 
