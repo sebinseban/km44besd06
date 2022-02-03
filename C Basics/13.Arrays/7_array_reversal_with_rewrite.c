@@ -35,6 +35,7 @@ int main()
     // after midway, the first contents of array are getting rewritten anf you are accessing that rewritted values :)
     // thats why after midway, the elements are same
     // only solution, create a new array
+    
     // new solution is to reverse the array without using another array
     //do this by swapping the first and last element
     //if even array, swap accordingly
