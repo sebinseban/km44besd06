@@ -35,8 +35,13 @@ int main()
     // after midway, the first contents of array are getting rewritten anf you are accessing that rewritted values :)
     // thats why after midway, the elements are same
     // only solution, create a new array
+    // new solution is to reverse the array without using another array
+    //do this by swapping the first and last element
+    //if even array, swap accordingly
+    //if odd array , stop at middle
     
     //loop to create a copy of array into a new array
+    /*
     for (int i = 0 ; i < n ; i++)
     {
         arr_copy[i] = arr[i];
@@ -49,7 +54,10 @@ int main()
         
         arr[i] = arr_copy[temp];
         temp--;
-    }
+    } */
+    for (int i = 0; )
+
+
 
     printf("Reversed array: ");
     for (int i = 0; i < n ; i++)

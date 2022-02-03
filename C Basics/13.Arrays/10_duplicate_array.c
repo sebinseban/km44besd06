@@ -40,7 +40,7 @@ int main()
 
     int compare_value = 0;
     int j_counter = 0;
-    printf("New array with repeated elements only : ");
+    //printf("New array with repeated elements only : ");
     for (int i = 0 ; i < size ; i++)
     {      
         for (int j = i + 1; j < size ; j++)
@@ -48,8 +48,8 @@ int main()
             if ( arr[i]== arr[j])
             {
                 arr_new[i] = arr[i];
-                printf("repeated at j =  %d\n",arr[i]);
-                printf("%d\t",arr_new[i]);
+                //printf("repeated at j =  %d\n",arr[i]);
+                
                 //count++;          
             }
             /*if (count == 2)
@@ -66,11 +66,13 @@ int main()
     }
     
     //print the new array with repeated elements
-    //printf("New array with repeated elements only : ");
-    /*for (int i = 0 ; i < size ; i++)
+    printf("New array with repeated elements only : ");
+    for (int i = 0 ; i < size ; i++)
     {
+        
         printf("%d\t",arr_new[i]);
     }
-    printf("\n"); */
+    printf("\n"); 
+    
     
 }
