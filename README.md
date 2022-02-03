@@ -27,25 +27,25 @@
 Check their sizes, try to also read values for elements and print them:
 
 
-`int arr[5] = {};`
+        `int arr[5] = {};`
 
-`int arr[10] = {2.4,5.6,7.3};`
+        `int arr[10] = {2.4,5.6,7.3};`
 
-`int arr[3] = {1,2,3,4,5};`
+        `int arr[3] = {1,2,3,4,5};`
 
-`int arr[0] = {};`
+        `int arr[0] = {};`
 
-`int arr[0] = {1,2,3,4,5};`
+        `int arr[0] = {1,2,3,4,5};`
 
-`int arr[] = {};`
+        `int arr[] = {};`
 
 `int arr[‘a’];`
 
 6. Write a program to print an array in reverse order. Do not change the contents of array 1 (don't rewrite)
         
-`Input : array1 ={1,2,3,4,5};`
+        `Input : array1 ={1,2,3,4,5};`
 
-`Output : array1 = {5,4,3,2,1};`
+        `Output : array1 = {5,4,3,2,1};`
 
 7. Write a program to reverse an array and print it:  (change the contents of array to new reversed content and then print them)
 
