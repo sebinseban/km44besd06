@@ -71,6 +71,9 @@ Check their sizes, try to also read values for elements and print them:
 
 11. An array contains some numbers. You need to find out how many times the biggest number has occurred in that array in a single loop. (one loop to find the biggest and also to count the biggest)
 
+12. Implement the following game in C so that computer always wins :
+
+Game is played between the computer and a single user. There are 21 match sticks, computer and user is allowed to take less than 5 sticks on each turn.The player who is forced to pick up the last stick is the loser.
 
 ### 2.12 STORAGE CLASSES (29/01/2022) ASSIGNMENT 12
 
