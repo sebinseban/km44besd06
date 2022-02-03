@@ -39,7 +39,7 @@ Check their sizes, try to also read values for elements and print them:
 
         `int arr[] = {};`
 
-`int arr[‘a’];`
+        `int arr[‘a’];`
 
 6. Write a program to print an array in reverse order. Do not change the contents of array 1 (don't rewrite)
         
@@ -49,9 +49,9 @@ Check their sizes, try to also read values for elements and print them:
 
 7. Write a program to reverse an array and print it:  (change the contents of array to new reversed content and then print them)
 
-`Input : array1 ={1,2,3,4,5};`
+        `Input : array1 ={1,2,3,4,5};`
 
-`Output : array1 = {5,4,3,2,1};`
+        `Output : array1 = {5,4,3,2,1};`
 
 8. Write a program to print an integer in binary format.
 
