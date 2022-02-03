@@ -16,6 +16,7 @@
        `void strcpy (char s1[], char s2[];`
 
 3. Write a program to implement the string concatenation functionality in a seperate function.
+       
        `void strcat (char s1[], char s2[]);`
 
 4. Write a program to convert all characters in an array to lowercase letters.
