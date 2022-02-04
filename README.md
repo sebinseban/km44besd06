@@ -5,6 +5,49 @@
 
 ## 2 BASIC C
 
+### 2.15 STRINGS 2 (04/02/2022) ASSIGNMENT 15
+
+1. Write a program to compare 2 strings.
+
+   `int strcmp (char s1[], char s2[]);`
+
+2. Write a program to compare 2 strings assuming case insensitive.
+
+   `int stricmp (char s1[], char s2[]);`
+
+3. Write a program to compare 2 strings only upto the first n character specified by the user.
+
+    `int strncmp (char s1[], char s2[]);`
+
+4. Write a program to replace all characters in a string with another character.
+
+   `void strchrreplace (char str[], char c1, char c2);`
+
+5. Write a program to count the total words in a string.
+
+    `int countWords (char str[]);`
+
+6. Write a program to search for a substring inside a string.
+
+    `int strstr (char str[], char sub[]);`
+
+7. Write a program to trim/remove all excess spaces before and after a string. (shouldn't remove spaces between words)
+
+    `void trim (char str[]);`
+
+8. Write a program to reverse the order of words in a string.
+
+      `void wordReverse (char str[]);`
+
+9. Write a program to convert stings to integer. Read documentation of *atoi* function.
+
+      `int atoi (char str[]);`
+
+10. Write a program to check if all characters are digits or not.
+
+       `int inNumeric (char str[]);`
+
+
 ### 2.14 STRINGS (03/02/2022) ASSIGNMENT 14
 
 1. Write a program to implement the string length functionality in a seperate function.
