@@ -22,7 +22,7 @@ int main()
     result = strChr(s,c);
     if (result >= 0)
     {
-        printf("Found at index %d\n. i.e location is %d\n",result,result + 1);
+        printf("Found at index %d\n",result);
     }
     else 
     {
