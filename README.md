@@ -5,6 +5,22 @@
 
 ## 2 BASIC C
 
+### 2.16 POINTERS (08/02/2022) ASSIGNMENT 16
+
+1. Write a program to print the address of a variable , its value ,its size, try different executions and note the address printed. Assign the address of the variable to a pointer variable.Print the sizes of pointer and its indirected expression(apply * operator).
+
+2. Write a program to add two variables using thier pointers.
+
+3. Write a program to take input for two character variables using pointers and find out which character has higher ascii value.
+
+4. declare different pointers with different base data types. Print the sizes of the pointer variables using sizeof operator. Why do u think all of them are giving same size irrespective of the data type ?
+
+5. Write a program to find the biggest of three numbers using pointers that point to those numbers.
+
+6. Take three input integers x,y and z. Write a program to rotate their values such that, x has the value of y, y has the value of z and z has the value of x. Do this using pointers that point to x,y and z.
+
+7. Declare an integer array of size 10 and initialize it to some values. Print the addresses of each element of the array using a pointer. using indirection operator , print the value stored in each element of the array.
+
 ### 2.15 STRINGS 2 (04/02/2022) ASSIGNMENT 15
 
 1. Write a program to compare 2 strings.
