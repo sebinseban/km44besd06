@@ -4,7 +4,9 @@
 //int strncmp (char s1[], char s2[], int n);
 
 #include <stdio.h>
+
 int strncmp (char s1[] , char s2[], int n);
+
 int main()
 {
     int n;

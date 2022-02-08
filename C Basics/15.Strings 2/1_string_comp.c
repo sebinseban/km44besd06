@@ -36,6 +36,8 @@ int main()
 
 int strCmp( char s1[], char s2[])
 {
+    //while the characters are equal, return 0 when nullcharacter comes
+    //whenever character not equal , return the difference of those two chars
     int i;
     for ( i = 0; s1[i] == s2[i] ; i++ )
     {
