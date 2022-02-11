@@ -29,6 +29,6 @@ int* square()
     {
         printf("%d", x*x);
     }
-    printf("Address: %p\n",&x);
+    printf("\tAddress: %p\n",&x);
     return &x;
 }
