@@ -5,15 +5,47 @@
 
 ## 2 BASIC C
 
+### 2.17 POINTERS 2 (10/02/2022) ASSSIGNMENT 17
+
+1. Write a program to swap two numbers using Call by Value and Call by Reference.
+
+2. Note down the differences between Call by Value and Call by Reference and when to use what.
+
+3. Write a function that can rotate the values of three variables. print the results in main function.
+
+4. Write a function that can take two integers as input, and gives 5 outputs : addition, subtraction, multiplication, quotient and reminder of those two numbers. Print the outputs in the main function.
+
+5. Write a function that communicates with main using a single static variable without taking any input arguments.
+
+Everytime function returns something using the static variable,after using it, main sends another input using the same variable and calls the function again.
+
+eg., print the square of each number of an array :
+for each number of the array :
+    call the function
+    main gets the static variable address as return value from function.
+    main puts the array element in static variable.
+in the function :
+    create static variable.
+    if static variable value is not zero, print its square.
+    function sends static variable address back to main.
+
+6. Write two source files, main.c and swap.c. The main function initializes a two-element array of ints, and then calls the swap function to swap the pair.
+
+7. WAP copy 0x20 data in to 0x7800 memory location?
+
+8. WAP to identify whether an architecture is Little Endian or Big Endian?
+
+9. Find the size of a variable without using sizeof operator.
+
 ### 2.16 POINTERS (08/02/2022) ASSIGNMENT 16
 
 1. Write a program to print the address of a variable , its value ,its size, try different executions and note the address printed. Assign the address of the variable to a pointer variable.Print the sizes of pointer and its indirected expression(apply * operator).
 
-2. Write a program to add two variables using thier pointers.
+2. Write a program to add two variables using their pointers.
 
 3. Write a program to take input for two character variables using pointers and find out which character has higher ascii value.
 
-4. declare different pointers with different base data types. Print the sizes of the pointer variables using sizeof operator. Why do u think all of them are giving same size irrespective of the data type ?
+4. Declare different pointers with different base data types. Print the sizes of the pointer variables using sizeof operator. Why do u think all of them are giving same size irrespective of the data type ?
 
 5. Write a program to find the biggest of three numbers using pointers that point to those numbers.
 

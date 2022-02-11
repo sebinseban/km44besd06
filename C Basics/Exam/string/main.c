@@ -18,7 +18,7 @@ int main()
     getchar();
     printf("Enter substring replacement: ");
     scanf("%124[^\n]s",str3);
-    getchar();0
+    getchar();
 
     //block to print the contents of 3 strings
     //printf("%s\n",str1);
