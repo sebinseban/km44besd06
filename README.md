@@ -5,6 +5,30 @@
 
 ## 2 BASIC C
 
+### 2.18 PRE-PROCESSOR DIRECTIVES (12/02/2022) ASSIGNMENT 18
+
+1. Write down a macro to find out the biggest of two numbers. MAX(x,y) should define code to find biggest of x and y.
+
+2. Write down a macro to find the biggest of two numbers. Using this macro , write a macro to find biggest of 3 numbers.
+
+3. Implement calculator program using macros. Write down your own header file ,where the calculator macros are defined(ADD,SUB,MUL,DIV).
+
+4. WAP to print if  a character is alphanumeric , using nested macros.
+
+5. WAP to print if a year is leap year or not. Modify the date validation program using this macro.
+
+6. WAP to print a range of prime numbers. Use macro,to find if a number is prime or not.
+
+7. Write a macro to print the biggest of three values. Try to call it and print the result for different data types, integer, float, double and character.
+
+8. Define  a macro that receives an array and the number of elements in the array as arguments. Write a macro definition to print the array elements and call the macro. use it for different data types and size of the arrays.
+
+9. Using the above macro, write a program to compute the sum of all elements in an array.
+
+10. Write a macro to generate a generic function for swapping 2 numbers.
+
+11. Write a macro to generate a generic function to compute the sum of all elements in an array.
+
 ### 2.17 POINTERS 2 (10/02/2022) ASSSIGNMENT 17
 
 1. Write a program to swap two numbers using Call by Value and Call by Reference.
