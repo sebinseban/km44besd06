@@ -2,9 +2,56 @@
 
 **Sebin Sebastian's** Lab Assignments Repo
 
-## 2 BASIC C
+## 3 ADVANCED C
 
-### 2.19 POINTER ARITHMETIC (14/02/2022) ASSIGNMENT 19
+### 3.20 MULTIDIMENSIONAL ARRAYS (15/02/2022) ASSIGNMENT 20
+
+1. Declare a two dimensional array of elements for sales details of a store, for each item, for each sales man. Take the sales values as input and print the array in matrix form.
+
+
+Find out and print the following :
+
+        i) Total sales by each sales man
+        ii) Total sales for a item
+        iii) Total sales
+
+
+2)Declare a two dimensional array of elements and find and print its transpose.
+
+eg.. if the matrix is :  
+
+        1 3
+
+        4 5
+
+        7 8
+
+its transpose should be :  
+
+        1 4 7
+        3 5 8
+
+3. Write a program  for matrix addition and subtraction.
+
+4. Write a program  for matrix multiplication.
+
+5. Search for an element in a two dimentional array, and print its position - as row and column numbers
+
+
+6. Declare a three dimensional array of elements for sales details of a store, for x number of items, sold by y number of sales men , for a period of z number of days. Take the sales values as input and print the array in matrix form for each day. Also find and print the following :
+
+        i) Total sales by each sales man per day.
+
+        ii) Total sales of each item per day.
+
+        iii) Total sales made by each sales man for z number of days.
+
+        iv) Total sales of each item for z number of days.
+
+        v) Total sales of the super market for z days.
+
+
+### 3.19 POINTER ARITHMETIC (14/02/2022)  ASSIGNMENT 19
 
 Implement the below functions using pointer increment method instead of index method with below declarations:
 
@@ -39,6 +86,8 @@ compare s1 and s2 and return the difference in numbers
 8. Implement a macro to find size of a given data type.
 
         eg., sizeof(int) should be 4
+
+## 2 BASIC C
 
 ### 2.18 PRE-PROCESSOR DIRECTIVES (12/02/2022) ASSIGNMENT 18
 
