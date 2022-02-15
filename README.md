@@ -2,8 +2,43 @@
 
 **Sebin Sebastian's** Lab Assignments Repo
 
-
 ## 2 BASIC C
+
+### 2.19 POINTER ARITHMETIC (14/02/2022) ASSIGNMENT 19
+
+Implement the below functions using pointer increment method instead of index method with below declarations:
+
+1. char * strcpy(char *s1,char *s2)
+
+        copy s2 to s1 and return s1
+
+2. char * strcat(char *s1, char *s2)
+
+        concatenate s2 to s1 and return s1
+
+3. int strcmp(char *s1, char *s2)
+compare s1 and s2 and return the difference in numbers
+
+4. char * strstr(char *s1, char *s2)
+
+        match and return the address of substring s2 in s1 
+        eg., s1 : kernel masters
+        s2: ers
+        this returns &s1[11] as s1[11], s1[12] amd s1[13] are matching with ers.
+
+5. char * strreplace(char *s1, char *s2, char *s3)
+
+        replace every occurrence of string s2 with string s3 in main string s1, and return s1.
+
+6. char * strrev(char *s)
+
+        reverse the string s and return its base address.
+
+7. Implement a macro to find the size of a variable.
+
+8. Implement a macro to find size of a given data type.
+
+        eg., sizeof(int) should be 4
 
 ### 2.18 PRE-PROCESSOR DIRECTIVES (12/02/2022) ASSIGNMENT 18
 
