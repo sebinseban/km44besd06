@@ -17,6 +17,7 @@ int main()
     int arr[4] = {10,2,3,4};
     float arr2[6] = {1.2, 3.4, 5.6, 7.8 , 8.9,23.5};
     double arr3[3] = {1.111, 3.45, 5.99};
+    
     sumArray(arr,int_sum,int,4,%d,q)
     sumArray(arr2,float_sum,float,6,%f,p)
     sumArray(arr3,double_sum,double,3,%lf,r)

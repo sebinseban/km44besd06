@@ -19,5 +19,10 @@ int main()
 	max_of_three(a,b,c,%f);
 	max_of_three(p,q,r,%lf);
 
+	/* copied from preprocessor output file
+	printf("Biggest:" "%d" "\n",x>y&&x>z?x:y>z?y:z);
+ 	printf("Biggest:" "%f" "\n",a>b&&a>c?a:b>c?b:c);
+ 	printf("Biggest:" "%lf" "\n",p>q&&p>r?p:q>r?q:r); */
+
 
 }
