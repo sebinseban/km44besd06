@@ -18,7 +18,7 @@ Find out and print the following :
 
 2)Declare a two dimensional array of elements and find and print its transpose.
 
-eg.. if the matrix is :  
+        eg.. if the matrix is :  
 
         1 3
 
