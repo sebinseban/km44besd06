@@ -5,32 +5,43 @@ input: 395
 output: three nine five */
 
 #include <stdio.h>
-int lenth(int num);
-int printtens(int n);
+
+int reverse(int n);
+int intLength(int num);
 
 int main()
 {
-    int input;
+    int input,length,temp;
     printf("Enter a number: ");
     scanf("%d",&input);
 
     char *digits[10] = {"zero","one","two","three","four","five","six","seven","eight","nine"};
-    int size_1 = lenth(input);
-    int size;
-    for(int i = 0; i < size_1; i++)
-    {
 
-        int temp ;
-        size = lenth(input);
-        temp = input % printtens(size - 1);
-        input = input / printtens(size - 1);
-        printf("%s ",digits[input]);
-        input = temp;
+    //reverse the numbers first
+    input = reverse(input);
+    length = intLength(input);
+    for(int i = 0 ; i < length; i++ )
+    {
+        temp = input % 10;
+        printf("%s\t",digits[temp]);
+        input = input / 10;
     }
     printf("\n");
-
 }
-int lenth(int num)
+//function for reversing an integer
+int reverse(int n)
+{
+    int rem,reverse = 0;
+    while (n != 0)
+    {
+        rem = n % 10;
+        reverse = reverse * 10 + rem;
+        n = n / 10;
+    }
+    return reverse;
+}
+//function for finding length of an integer
+int intLength(int num)
 {
     int count = 0;
      while(num)
@@ -39,14 +50,4 @@ int lenth(int num)
         count++;
     }
     return count;
-}
-
-int printtens(int n)
-{
-    int ten = 1;
-    for(int i = 0; i < n ; i++)
-    {
-        ten = ten * 10;
-    }
-    return ten;
 }
