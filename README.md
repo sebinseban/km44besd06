@@ -4,6 +4,23 @@
 
 ## 3 ADVANCED C
 
+### 3.21 ARRAY OF STRINGS (16/02/2022) ASSIGNMENT 21
+
+1. Read a month number and print the corresponding month name using character pointer array.
+
+2. Read a number and print it in the below format:
+
+        eg input: 395
+
+        output: three nine five
+
+3. Sort an array of integers in ascending order using adjacent element comparison and swapping (bubble sort algorithm)
+
+
+4. Write a program to sort the names in an array of strings in alphabetical order. Use 2 dimentional character array to store the strings.
+
+5. Write a program to sort the names in an array of strings in alphabetical order. Use 1 dimentional character pointer array to store the strings.
+
 ### 3.20 MULTIDIMENSIONAL ARRAYS (15/02/2022) ASSIGNMENT 20
 
 1. Declare a two dimensional array of elements for sales details of a store, for each item, for each sales man. Take the sales values as input and print the array in matrix form.
@@ -16,20 +33,18 @@ Find out and print the following :
         iii) Total sales
 
 
-2)Declare a two dimensional array of elements and find and print its transpose.
+2. Declare a two dimensional array of elements and find and print its transpose.
 
         eg.. if the matrix is :  
 
         1 3
-
         4 5
-
         7 8
 
-its transpose should be :  
+        its transpose should be :  
 
-        1 4 7
-        3 5 8
+                1 4 7
+                3 5 8
 
 3. Write a program  for matrix addition and subtraction.
 
