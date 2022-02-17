@@ -26,7 +26,7 @@
 1. Declare a two dimensional array of elements for sales details of a store, for each item, for each sales man. Take the sales values as input and print the array in matrix form.
 
 
-Find out and print the following :
+        Find out and print the following :
 
         i) Total sales by each sales man
         ii) Total sales for a item
