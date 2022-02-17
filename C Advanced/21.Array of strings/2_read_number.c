@@ -18,8 +18,9 @@ int main()
     char *digits[10] = {"zero","one","two","three","four","five","six","seven","eight","nine"};
 
     //reverse the numbers first
-    input = reverse(input);
     length = intLength(input);
+
+    input = reverse(input);
     for(int i = 0 ; i < length; i++ )
     {
         temp = input % 10;
@@ -36,6 +37,7 @@ int reverse(int n)
     {
         rem = n % 10;
         reverse = reverse * 10 + rem;
+        
         n = n / 10;
     }
     return reverse;
