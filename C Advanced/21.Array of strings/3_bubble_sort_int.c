@@ -12,6 +12,7 @@ void swap ( int* arr);
 int main()
 {
     int arr[SIZE] = {5,3,4,1,2,123,23,46,7,344};
+    //directly call the function, do the swapping with another function inside bubble sort function
     bubbleSort(&arr[0]);
 
     for( int i = 0; i < SIZE; i++)

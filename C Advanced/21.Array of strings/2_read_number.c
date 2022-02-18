@@ -17,6 +17,7 @@ int main()
 
     char *digits[10] = {"zero","one","two","three","four","five","six","seven","eight","nine"};
 
+    //find the length of integer before reversing, or else zeroes at end of original input will be discarded
     //reverse the numbers first
     length = intLength(input);
 
