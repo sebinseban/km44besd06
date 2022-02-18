@@ -7,7 +7,8 @@
 ### 3.22 COMMANDLINE ARGUMENTS (18/02/2022) ASSIGNMENT 22
 
 1. Implement the calculator program using Command line arguments
-        eg., >./a.out 1 + 3
+
+        eg,, >./a.out 1 + 3
 
         output 1+3 = 4
 
@@ -20,6 +21,7 @@
 2. sort the list of names received on command line argument and print them in ascending or descending order based on option -r.
 
         >./a.out one two three four five six seven eight nine ten
+
         eight
         five
         four
@@ -32,6 +34,7 @@
         two
 
         >./a.out  -r one two three four five six seven eight nine ten
+
         two
         three
         ten
