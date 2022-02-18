@@ -23,8 +23,11 @@ void bubbleSort (int * arr)
     {
         for(int j = 0; j <= ROW - i - 2 ; j++)
         {
-            int value = strCmp( &arr[j], &arr[j+1])
-            printf("%d\n",value);
+            if( strCmp( &arr[j], &arr[j+1]) > 0 )
+            {
+                //call the strcpy function, do strcopy
+            } 
+            
             
         }
 
