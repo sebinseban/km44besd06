@@ -4,6 +4,37 @@
 
 ## 3 ADVANCED C
 
+### 3.23 DYNAMIC MEMORY ALLOCATION (20/02/2022) ASSIGNMENT 23
+
+1)Create a dynamic array of integers. Take input from user , sort the array and display the output.
+
+2)Write a function that takes two sorted integer arrays as input, and returns an array of integers from both arrays in sorted order, excluding duplicate numbers.
+
+        Assume that the input arrays are sorted.
+
+        eg., array1 : 10,12,13,14,15,16
+
+        array2 : 9,12,15,19,20
+
+        output array3 : 9,10,12,13,14,15,16,19,20
+        
+3)Implement your own realloc function using malloc and free. 
+
+        - Create the new size memory using malloc
+
+        - copy the data from old address to new address
+
+        - release old address
+
+        - return new address
+
+4)Implement itoa function and return the string from the function. Print the result in main.
+itoa function takes an integer as input,converts it into a numerical string and returns it.
+
+        eg., input a number: 123
+        
+        output: 123
+
 ### 3.22 COMMANDLINE ARGUMENTS (18/02/2022) ASSIGNMENT 22
 
 1. Implement the calculator program using Command line arguments
