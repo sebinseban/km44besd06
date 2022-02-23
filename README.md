@@ -4,6 +4,41 @@
 
 ## 3 ADVANCED C
 
+### 3.25 FUNCTION POINTERS (23/02/2022) ASSIGNMENT 25
+
+1) Write the calculator program using function pointers.
+
+2) Write the calculator program using array of function pointers.
+
+3) "Write the calculator program using a function that accepts a function pointer as argument and invokes it.
+
+        eg., fptr = ADD;
+
+        invokeptr(fptr);
+
+        invokeptr(int (*fptr) (int,int))
+
+        {
+
+        printf(""%d\n"",fptr(3,4));
+        
+        }
+
+4) Write a program to read an integer and print it back using function pointers for printf and scanf.
+
+5) sort the list of names received on command line argument and print them in ascending or descending order / comparison with case or without case based on options -r & -i. Use function pointers to choose which function (strasc/strdesc , strcmp/stricmp) to call based on the option.
+
+### 3.24 DYNAMIC MEMORY ALLOCATION (23/02/2022) ASSIGNMENT 24
+
+1) Create a 2 dimentional array of characters using a character pointer array (number of strings fixed). Each string length can be different (upto maximum 100), read it from the user. Create memory for each string upto required size only. 
+
+Sort the strings and print.
+
+2) Create a 2 dimentional array of characters using a double pointer( number of strings dynamic).  Each string length can be different (upto maximum 100), read it from the user. Create memory for each string upto required size only. 
+
+Sort the strings and print.
+
+
 ### 3.23 DYNAMIC MEMORY ALLOCATION (20/02/2022) ASSIGNMENT 23
 
 1)Create a dynamic array of integers. Take input from user , sort the array and display the output.
