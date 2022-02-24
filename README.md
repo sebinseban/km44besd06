@@ -20,11 +20,27 @@
 
 7. WAP to convert little endian integer to Big endian integer.
 
-8. WAP multiply a number by 9 using bit shift.
+8. WAP to multiply a number by 9 using bit shift.
 
-9. WAP whether a number is ODD or EVEN using bitwise.
+9. WAP to check whether a number is ODD or EVEN using bitwise.
 
-10. WAP whether a number is power of 2 or not?
+10. WAP to check whether a number is power of 2 or not?
+
+11. WAP Check if the 20th bit of a 32 bit integer is ON or OFF?
+
+12. Write a functionsetbits (x,p,n,y)that returns x with then bits that begin at position p
+set to the rightmost n bits of y, leaving the other bits unchanged.
+Example: if x = 10101010 (170 decimal) and y = 10100111 (167 decimal) and n = 3
+and p = 6 then you need to strip off 3 bits of y (111) and put them in x at position
+10xxx010 to get answer 10111010. Your answer should print out the result in binary
+form although input can be in decimal form.
+Your output should be like this:
+x = 10101010 (binary)
+y = 10100111 (binary)
+setbits n = 3, p = 6
+gives x = 10111010 (binary).
+
+13. WAP Swap any two numbers using bitwise operators. How it works?
 
 ## 3 ADVANCED C
 
