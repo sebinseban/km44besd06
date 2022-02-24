@@ -2,6 +2,30 @@
 
 **Sebin Sebastian's** Lab Assignments Repo
 
+## 4 EMBEDDED C
+
+### 4.1 BITWISE OPERATORS (20/02/2022) ASSIGNMENT 1
+
+1. WAP to print binary?
+
+2. WAP to count the bits set (bit value 1) in an integer? Find out and compare different possibilities?
+
+3. WAP to implement subtraction functionality without using SUB ('-') Operator.
+
+4. WAP to implement addition functionality without using ADD ('+') Operator.
+
+5. WAP to implement XOR functionality without using XOR (^) operator.
+
+6. WAP to implement the sizeof operation using bitwise operator.
+
+7. WAP to convert little endian integer to Big endian integer.
+
+8. WAP multiply a number by 9 using bit shift.
+
+9. WAP whether a number is ODD or EVEN using bitwise.
+
+10. WAP whether a number is power of 2 or not?
+
 ## 3 ADVANCED C
 
 ### 3.25 FUNCTION POINTERS (23/02/2022) ASSIGNMENT 25
