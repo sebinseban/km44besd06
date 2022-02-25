@@ -4,7 +4,7 @@
 
 int main()
 {
-	int x=8,y=4,c;
+	int x=8,y=4;
 	x=((~x)&y)|(x&(~y));
 
     return 0;
