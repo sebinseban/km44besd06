@@ -5,7 +5,7 @@
 int main()
 {
 		
-	int x=0xF;
+	int x=0x24f;
 	int c=0,size;
 	while(x!=0)
 	{
