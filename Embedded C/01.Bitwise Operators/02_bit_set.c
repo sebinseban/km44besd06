@@ -9,18 +9,19 @@
 int main()
 {
     unsigned int x = 255;
-		int count = 0;
+	int count = 0;
 	
 	//unsigned int range 0 to 4294967295
 	/*solution 1 : loop through all the bits in the integer and check if each bit is one
 	Time Complexity: T(logn) (Theta of logn)
 	Auxiliary Space: O(1) 
 	
-		while (x)
-		{
-			count = count + (x & 1);
-			x >>= 1;
-		} 
+    while (x)
+    {
+        count = count + (x & 1);
+        x >>= 1;
+    } 
+    
 	*/
 	
 	/*Brian Kernighan’s Algorithm
@@ -34,12 +35,12 @@ int main()
 	If we do n & (n-1) in a loop and count the number of times the loop executes, we get the set bit count. 
 	The beauty of this solution is the number of times it loops is equal to the number of set bits in a given integer. 
 	Time Complexity: O(logn)*/
-		while (x)
-		{
-			//x = x & (x - 1);
-			x &= (x-1);
-			count++;
-		}
+    while (x)
+    {
+        //x = x & (x - 1);
+        x &= (x-1);
+        count++;
+    }
 	
     return 0;
 }
