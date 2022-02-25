@@ -4,15 +4,15 @@
 
 int main()
 {
-		int x = 10;
-		int y = 5;
-		while (y != 0) 
-        { 
-            int borrow = (~x) & y; 
-            x = x ^ y; 
-            y = borrow << 1; 
-        }
-	
+	int x = 10;
+	int y = 5;
+	while (y != 0) 
+    { 
+        int borrow = (~x) & y; 
+        x = x ^ y; 
+        y = borrow << 1; 
+    }
+
 	return 0;
 	
 }
