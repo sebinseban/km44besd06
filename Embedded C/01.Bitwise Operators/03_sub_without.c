@@ -4,11 +4,12 @@
 
 int main()
 {
-	int x = 10;
-	int y = 5;
+    int borrow;
+    int x = 10;
+    int y = 5;
 	while (y != 0) 
     { 
-        int borrow = (~x) & y; 
+        borrow = (~x) & y; 
         x = x ^ y; 
         y = borrow << 1; 
     }
