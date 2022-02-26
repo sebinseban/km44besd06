@@ -5,6 +5,6 @@
 int main()
 {
 	int x=4;
-	a=(a<<3)+a;
+	x=(x<<3)+a;
 	
 }
