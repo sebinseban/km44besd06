@@ -45,9 +45,9 @@ void KM_LCD_Write_Str(char *);
 
 #### GPIO Ports Configure to Output:
 
-1. Toggle RED LED ON time is 50ms and RED LED OFF time is 1300ms.
+1) Toggle RED LED ON time is 50ms and RED LED OFF time is 1300ms.
 
-2. Airplane wing Lights blinking Delays:
+2) Airplane wing Lights blinking Delays:
 
         USER LED1 (GREEN): ON (50msec), OFF (50msec), ON (50msec), OFF (150msec) periodically.
 
@@ -56,20 +56,20 @@ void KM_LCD_Write_Str(char *);
 
 #### GPIO Ports Configure to Input with Polling:
 
-3. Whenever SW_UP is pressed RED LED is ON, whenever SW_DN is pressed GREEN LED is ON.
+3) Whenever SW_UP is pressed RED LED is ON, whenever SW_DN is pressed GREEN LED is ON.
 
-4. Use “SW_ENT” and declare “counter” global variable. Your program should increment counter
+4) Use “SW_ENT” and declare “counter” global variable. Your program should increment counter
 by one, every time switch is pressed.
 
         Note how the value of counter changes on each “ENTER SWITCH” press. Use
         debugger and add Counter to “Watch Expression” window. Does the value of counter increment by one always?
 
-5. Whenever ENTER SWITCH is Press toggle RED LED.
+5) Whenever ENTER SWITCH is Press toggle RED LED.
 
-6. Read SW_ENT, if switch is press RED LED is ON otherwise RED LED is OFF. Note that RED LED
+6) Read SW_ENT, if switch is press RED LED is ON otherwise RED LED is OFF. Note that RED LED
 should remain ON for the duration switch is kept pressed i.e. RED LED should turn OFF when switch is released.
 
-7. Whenever SW_ENT Press turn ON BUZZER up to 250msec and Turn OFF BUZZER
+7) Whenever SW_ENT Press turn ON BUZZER up to 250msec and Turn OFF BUZZER
 
 ### 4.1 BITWISE OPERATORS (20/02/2022) ASSIGNMENT 1
 
