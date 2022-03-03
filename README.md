@@ -4,6 +4,73 @@
 
 ## 4 EMBEDDED C
 
+### 4.2.1 GPIO MINI PROJECT : LCD INITIALIZATION
+
+Write Higher Nibble data in to LCD.
+
+Return Value: No return Value; Argument: unsigned char data 
+
+void write_high_nibble( unsigned char data );
+
+/*Write Lower Nibble data in to LCD.
+
+Return Value: No return Value; Argument: unsigned char data */
+
+void write_low_nibble( unsigned char data );
+
+/*LCD Initialization.
+
+Return Value: No return Value; Argument: No Argument */
+void KM_LCD_Init(void);
+
+/*Write a LCD command.
+
+Return Value: No return Value; Argument: unsigned char */
+
+void KM_LCD_Write_Cmd( unsigned char );
+
+/*Write a LCD Data (single character).
+
+Return Value: No return Value; Argument: unsigned char */
+
+void KM_LCD_Write_Data( unsigned char );
+
+/*Write a LCD Data (Multiple characters).
+
+Return Value: No return Value; Argument: character pointer */
+
+void KM_LCD_Write_Str(char *);
+
+### 4.2 GPIO (28/02/2022) ASSIGNMENT 2
+
+#### GPIO Ports Configure to Output:
+
+1. Toggle RED LED ON time is 50ms and RED LED OFF time is 1300ms.
+
+2. Airplane wing Lights blinking Delays:
+
+        USER LED1 (GREEN): ON (50msec), OFF (50msec), ON (50msec), OFF (150msec) periodically.
+
+        USER LED2 (RED): ON (50msec), OFF (250msec), ON (50msec), OFF (500msec) periodically.
+        V
+
+#### GPIO Ports Configure to Input with Polling:
+
+3. Whenever SW_UP is pressed RED LED is ON, whenever SW_DN is pressed GREEN LED is ON.
+
+4. Use “SW_ENT” and declare “counter” global variable. Your program should increment counter
+by one, every time switch is pressed.
+
+        Note how the value of counter changes on each “ENTER SWITCH” press. Use
+        debugger and add Counter to “Watch Expression” window. Does the value of counter increment by one always?
+
+5. Whenever ENTER SWITCH is Press toggle RED LED.
+
+6. Read SW_ENT, if switch is press RED LED is ON otherwise RED LED is OFF. Note that RED LED
+should remain ON for the duration switch is kept pressed i.e. RED LED should turn OFF when switch is released.
+
+7. Whenever SW_ENT Press turn ON BUZZER up to 250msec and Turn OFF BUZZER
+
 ### 4.1 BITWISE OPERATORS (20/02/2022) ASSIGNMENT 1
 
 1. WAP to print binary?
@@ -29,16 +96,22 @@
 11. WAP Check if the 20th bit of a 32 bit integer is ON or OFF?
 
 12. Write a functionsetbits (x,p,n,y)that returns x with then bits that begin at position p
-set to the rightmost n bits of y, leaving the other bits unchanged.
-Example: if x = 10101010 (170 decimal) and y = 10100111 (167 decimal) and n = 3
-and p = 6 then you need to strip off 3 bits of y (111) and put them in x at position
-10xxx010 to get answer 10111010. Your answer should print out the result in binary
-form although input can be in decimal form.
-Your output should be like this:
-x = 10101010 (binary)
-y = 10100111 (binary)
-setbits n = 3, p = 6
-gives x = 10111010 (binary).
+        set to the rightmost n bits of y, leaving the other bits unchanged.
+
+        Example: if x = 10101010 (170 decimal) and y = 10100111 (167 decimal) and n = 3
+        and p = 6 then you need to strip off 3 bits of y (111) and put them in x at position
+
+        10xxx010 to get answer 10111010. Your answer should print out the result in binary form although input can be in decimal form.
+
+        Your output should be like this:
+
+        x = 10101010 (binary)
+
+        y = 10100111 (binary)
+
+        setbits n = 3, p = 6
+
+        gives x = 10111010 (binary).
 
 13. WAP Swap any two numbers using bitwise operators. How it works?
 
