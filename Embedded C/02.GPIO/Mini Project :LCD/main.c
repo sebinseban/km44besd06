@@ -1,11 +1,9 @@
 
 
-
 #define RCC_AHB1ENR (*(int *)0x40023830)
 #define GPIOB_MODER (*(int *)0x40020400)										
 #define GPIOB_ODR   (*(int *)0x40020414)
 	
-
 //beatiful logic for creating an accurate delay
 void delay(int mills)
 {
@@ -36,9 +34,6 @@ void enable(void)
 	GPIOB_ODR |= (0x1 << 8);
 	delay(10);
 	GPIOB_ODR &= ~(0x01 << 8);     //turn the bit on first
-	
-	
-	
 }
 
 void write_high_nibble( unsigned char value )
@@ -63,11 +58,8 @@ void KM_LCD_Write_Cmd( unsigned char cmd )
 		GPIOB_ODR &= ~(0x1 << 4);                //make  the RS pin 0, so that command can be send
 		write_high_nibble(cmd);
 		write_low_nibble(cmd);
-	
-	
-	
-	
 }
+
 void KM_LCD_Write_Data( unsigned char data )
 {
 	
@@ -86,13 +78,7 @@ void KM_LCD_Init(void)
 		KM_LCD_Write_Cmd(0x0C);									//display switch command and is used to turn on the display and turn off the cursor
 		KM_LCD_Write_Cmd(0x01);									//this command is used to clear the contents of the display
 		KM_LCD_Write_Cmd(0x80);									//force cursor to beginning ( 1st line)
-
-	
 }
-
-
-
-
 
 void KM_LCD_Write_Str(char * str)              //basic function for string
 {
@@ -103,8 +89,6 @@ void KM_LCD_Write_Str(char * str)              //basic function for string
 		i++;
 	}
 }
-
-
 
 int main(void)
 {
