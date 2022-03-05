@@ -10,36 +10,43 @@ Write Higher Nibble data in to LCD.
 
 Return Value: No return Value; Argument: unsigned char data 
 
-void write_high_nibble( unsigned char data );
+`void write_high_nibble( unsigned char data );`
 
-/*Write Lower Nibble data in to LCD.
 
-Return Value: No return Value; Argument: unsigned char data */
+Write Lower Nibble data in to LCD.
 
-void write_low_nibble( unsigned char data );
+Return Value: No return Value; Argument: unsigned char data 
 
-/*LCD Initialization.
+`void write_low_nibble( unsigned char data );`
 
-Return Value: No return Value; Argument: No Argument */
-void KM_LCD_Init(void);
 
-/*Write a LCD command.
+LCD Initialization.
+
+Return Value: No return Value; Argument: No Argument 
+
+`void KM_LCD_Init(void);`
+
+
+Write a LCD command.
+
+Return Value: No return Value; Argument: unsigned char 
+
+`void KM_LCD_Write_Cmd( unsigned char );`
+
+
+Write a LCD Data (single character).
 
 Return Value: No return Value; Argument: unsigned char */
 
-void KM_LCD_Write_Cmd( unsigned char );
+`void KM_LCD_Write_Data( unsigned char );`
 
-/*Write a LCD Data (single character).
 
-Return Value: No return Value; Argument: unsigned char */
-
-void KM_LCD_Write_Data( unsigned char );
-
-/*Write a LCD Data (Multiple characters).
+Write a LCD Data (Multiple characters).
 
 Return Value: No return Value; Argument: character pointer */
 
-void KM_LCD_Write_Str(char *);
+`void KM_LCD_Write_Str(char *);`
+
 
 ### 4.2 GPIO (28/02/2022) ASSIGNMENT 2
 
@@ -53,7 +60,7 @@ void KM_LCD_Write_Str(char *);
 
         USER LED2 (RED): ON (50msec), OFF (250msec), ON (50msec), OFF (500msec) periodically.
         V
-
+00000000
 #### GPIO Ports Configure to Input with Polling:
 
 3) Whenever SW_UP is pressed RED LED is ON, whenever SW_DN is pressed GREEN LED is ON.
