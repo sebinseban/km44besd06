@@ -1,5 +1,5 @@
 //sebin sebastian
-//25/02/2022
+//05/02/2022
 //Write the calculator program using function pointers.
 
 #include <stdio.h>
