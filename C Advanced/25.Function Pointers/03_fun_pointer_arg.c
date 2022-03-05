@@ -13,9 +13,9 @@
 float a,b;
 
 float add(float a, float b);
-void sub(float a, float b);
-void mul(float a, float b);
-void div(float a, float b);
+float sub(float a, float b);
+float mul(float a, float b);
+float div(float a, float b);
 void giveMeFunction( float (*add_fp)(float , float) , float a, float b );
 
 
@@ -27,35 +27,49 @@ int main()
     printf("Enter b: ");
     scanf("%f",&b);
     
-    float (*add_fp)(float,float);
-    add_fp = add;
+    //can also use this method, but array seems more faster and efficient
+    //float (*add_fp)(float,float);
+    //add_fp = &add;
 
-    giveMeFunction(add_fp,a,b);    
+    float (*calc[4])(float,float) = {add,sub,mul,div};
+
+
+    giveMeFunction(calc[0],a,b);
+    giveMeFunction(calc[1],a,b);    
+    giveMeFunction(calc[2],a,b);
+    giveMeFunction(calc[3],a,b);
 }
 
 float add(float a , float b)
 {
     float sum = a + b;
+    printf("Addition: ");
     //printf("Add: %0.2f + %0.2f = %0.2f\n",a,b,sum);
     return sum;
 }
 
-void sub(float a, float b)
+float sub(float a, float b)
 {
     float sum = a - b;
-    printf("Sub: %0.2f - %0.2f = %0.2f\n",a,b,sum);
+    printf("Subraction:");
+    //printf("Sub: %0.2f - %0.2f = %0.2f\n",a,b,sum);
+    return sum;
 }
 
-void mul(float a, float b)
+float mul(float a, float b)
 {
     float sum = a * b;
-    printf("Mul: %0.2f * %0.2f = %0.2f\n",a,b,sum);
+    printf("Multiplication: ");
+    //printf("Mul: %0.2f * %0.2f = %0.2f\n",a,b,sum);
+    return sum;
 }
 
-void div (float a,float b)
+float div (float a,float b)
 {
     float sum = a / b;
-    printf("Div: %0.2f / %0.2f = %0.2f\n",a,b,sum);
+    printf("Division:");
+    //printf("Div: %0.2f / %0.2f = %0.2f\n",a,b,sum);
+    return sum;
 }
 
 void giveMeFunction( float (*add_fp)(float , float) , float a, float b )
