@@ -12,40 +12,35 @@
 
         Return Value: No return Value; Argument: unsigned char data 
 
-Write Lower Nibble data in to LCD.
-
-Return Value: No return Value; Argument: unsigned char data 
-
 `void write_low_nibble( unsigned char data );`
 
+        Write Lower Nibble data in to LCD.
 
-LCD Initialization.
-
-Return Value: No return Value; Argument: No Argument 
+        Return Value: No return Value; Argument: unsigned char data 
 
 `void KM_LCD_Init(void);`
 
+        LCD Initialization.
 
-Write a LCD command.
-
-Return Value: No return Value; Argument: unsigned char 
+        Return Value: No return Value; Argument: No Argument 
 
 `void KM_LCD_Write_Cmd( unsigned char );`
 
+        Write a LCD command.
 
-Write a LCD Data (single character).
-
-Return Value: No return Value; Argument: unsigned char */
+        Return Value: No return Value; Argument: unsigned char 
 
 `void KM_LCD_Write_Data( unsigned char );`
 
+        Write a LCD Data (single character).
 
-Write a LCD Data (Multiple characters).
-
-Return Value: No return Value; Argument: character pointer */
+        Return Value: No return Value; Argument: unsigned char 
 
 `void KM_LCD_Write_Str(char *);`
 
+        Write a LCD Data (Multiple characters).
+
+        Return Value: No return Value; Argument: character pointer 
 
 ### 4.2 GPIO (28/02/2022) ASSIGNMENT 2
 
