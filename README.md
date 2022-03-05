@@ -6,12 +6,11 @@
 
 ### 4.2.1 GPIO MINI PROJECT : LCD INITIALIZATION
 
-Write Higher Nibble data in to LCD.
-
-Return Value: No return Value; Argument: unsigned char data 
-
 `void write_high_nibble( unsigned char data );`
 
+        Write Higher Nibble data in to LCD.
+
+        Return Value: No return Value; Argument: unsigned char data 
 
 Write Lower Nibble data in to LCD.
 
