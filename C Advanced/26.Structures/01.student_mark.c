@@ -1,10 +1,8 @@
 #include <stdio.h>
+#include"header.h"
 
-int datecomparison ( );
 
-
-#define NAME_LENGTH 25
-#define STUDENTS 2
+int temp2;
 
 struct Date
 {
@@ -12,20 +10,8 @@ struct Date
 
 };
 
-struct Student
-{
-    int ID;
-    char name[NAME_LENGTH];
-    int marks[6];
-    char father_name[NAME_LENGTH];
 
-    //struct Date dob;
-    //struct Date doj;
-    int dob_d, dob_m, dob_y;
-    int doj_d, doj_m, doj_y;
-};
-
-int dateComparison (struct Student a, struct Student b);
+int findTopper (struct Student a);
 
 int main()
 {
@@ -59,40 +45,43 @@ int main()
         scanf("%d-%d-%d",&s[i].doj_d, &s[i].doj_m, &s[i].doj_y);
     }
 
-    for (int i = 0; i < STUDENTS; i++)
+
+    //finding the topper
+    for(int i = 0 ; i< STUDENTS ; i++)
     {
-        int result = dateComparison(s[i], s[i+1]);
-        if (result == 0)
+        total_marks = 0;
+        topper_index = -1;
+        findTopper(s[i]);
+        if (temp > total_marks)
         {
-            datemax = i;
+            total_marks = temp;
+            topper_index = i;
+        }
+        temp2 = i;
+    }
+    printf("The topper is: %s\n",s[temp2].name);
+    printf("Father's name: %s\n",s[temp2].father_name);
+    printf("The total marks is : %d\n",total_marks);
+
+
+    //finding date of eldest
+    int id,i;
+    int d = s[0].dob_d;
+    int m = s[0].dob_m;
+    int y = s[0].dob_y;
+
+    for(i = 1; i < STUDENTS; i++)
+    {
+        int date = dateComparison(d,m,y,s[i]);
+        if(date == 0)
+        {
+            d = s[i].dob_d;
+            m = s[i].dob_m;
+            y = s[i].dob_y;
+            id = i ;
+
         }
     }
-    printf("%d\n",datemax);
-    printf("Eldest: %s\n", s[datemax].name);
-
+    printf("The eldest is : %s.\n",s[i].name);
 }
 
-int dateComparison (struct Student a, struct Student b)
-{
-    float date1 = (10 * a.dob_d) + (100 * a.dob_m) + (10000 * a.dob_y);
-    float date2 = (10 * b.dob_d) + (100 * b.dob_m) + (10000 * b.dob_y);
-
-    if (date1 < date2)
-    {
-        return 0;
-    }
-
-    else
-    {
-        return 1;
-    }
-}
-
-int findTopper (struct Student a, struct Student b)
-{
-    int topper_index = -1;
-    int total_marks = 0;
-    
-
-
-}
