@@ -118,7 +118,37 @@ should remain ON for the duration switch is kept pressed i.e. RED LED should tur
 
 ## 3 ADVANCED C
 
-### 3.36 STRUCTURES (28/02/2022) ASSIGNMENT 26
+### 3.27 STRUCTURES 2 (09/03/2022) ASSIGNMENT 27
+
+1)Take two layers (two source files, producer.c , consumer.c & one header file layer.h). In producer.c, define a structure variable , create its data and send it to consumer.c, via
+
+        i ) Call by Value
+
+        ii ) Call by Reference
+
+in consumer.c , print the data of the structure in a neat format.
+
+in layer.h file create the below structure template.
+
+        struct student 
+        {
+        int ID;
+        char name[30];
+        float per;
+        }
+
+
+2)Create a student template with below details : ID number, name of student, date of birth (date data structure with int day, char * month, int year) as members, int noofsubjects, int *marks (to hold base address of array of marks in all subjects).
+
+Create an array of student structure. 
+
+Send an array of structures from one layer (user.c) to another layer(kernel.c). 
+
+Write a function in kernel.c to receive an array of structures from user.c, and put values in it for all students using scanf. then user.c should print the values of the all students along with their total marks ( first read number of subjects for each student, and create an array of integers to hold marks of each subject ,and store the address in marks pointer, and then find out total marks).  While reading date of birth, read month number and assign the appropriate month name in month character pointer.
+
+Write a function in user.c that takes the student array as argument and Finds and prints the topper ( highest average marks) and prints his name and date of birth (dd- month name-year).
+
+### 3.26 STRUCTURES (28/02/2022) ASSIGNMENT 26
 
 Define a student template with below information.
  
