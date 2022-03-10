@@ -118,6 +118,12 @@ should remain ON for the duration switch is kept pressed i.e. RED LED should tur
 
 ## 3 ADVANCED C
 
+### 3.28 LINKED LIST 1 (09/03/2022) ASSIGNMENT 28
+
+1. Create a liked list using student structure with ID and name fields, and print the list.
+
+2. Create a string using linkedlist, read and print it back (store each character in a seperate node). Do you think it is required to store a null character in this linkedlist?
+
 ### 3.27 STRUCTURES 2 (09/03/2022) ASSIGNMENT 27
 
 1)Take two layers (two source files, producer.c , consumer.c & one header file layer.h). In producer.c, define a structure variable , create its data and send it to consumer.c, via
