@@ -118,6 +118,35 @@ should remain ON for the duration switch is kept pressed i.e. RED LED should tur
 
 ## 3 ADVANCED C
 
+### 3.30 STACK & QUEUE (12/03/2022) ASSIGNMENT 30
+
+1. Implement stack using array
+
+2. Implement stack using queue
+
+3. Implement circular queue using array
+
+4. Implement queue using linked list
+
+### 3.29 LINKED LIST 2 (10/03/2022) ASSIGNMENT 29
+
+1) Make a menu driven linked list program with the following options, that continues until user chooses to quit, with all proper error handling:
+
+Start with an empty linkedlist ,and build the list while the user chooses to insert new nodes from below options:
+
+        1) Insert a new node at a given position
+        2) Insert a new node before a given key
+        3) Insert a new node after a given key
+        4) Delete a given node with matching key
+        5) Print the linked list
+        6) Quit
+
+2) Create a sorted list from the input entered by the user:
+
+        eg., 4 8 2 10 9 7 14 3 10 3
+
+        output: 2 3 3 4 7 8 9 10 10 14
+
 ### 3.28 LINKED LIST 1 (09/03/2022) ASSIGNMENT 28
 
 1. Create a liked list using student structure with ID and name fields, and print the list.
