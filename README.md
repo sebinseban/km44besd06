@@ -6,7 +6,7 @@
 
 ### 4.3 UART (06/03/2022) ASSIGNMENT 3
 
-1. USART Polling
+1) USART Polling
 
 Write a pseudo code and Embedded C program to Configure UART1 with 9600 8N1.
 And transmit character ‘A’ and Receive same character using hardware Loop back.
@@ -23,7 +23,7 @@ And transmit character ‘A’ and Receive same character using hardware Loop ba
         USARTDIV = System clock/8*(2-0)*BaudRate = 16000000/16*9600 =
         16000000/(16*9600)=104.1875 ==> 104+0.18==>68(integral part)
 
-2. : Write an Embedded C Program and implement USART Non-Blocking and USART
+2) : Write an Embedded C Program and implement USART Non-Blocking and USART
 TIMEOUT Functions.
 
 USART Rx Functions
@@ -49,7 +49,7 @@ Solution for this problem is to implement Non-Blocking and TIMEOUT function.
         ERROR, otherwise data will be stored in global variable and return value is zero to indicate
         SUCCESS.
 
-3. USART RX interrupts
+3) USART RX interrupts
 
 Write a Pseudo code and Embedded C program to USAR1 Configuration using the below
 conditions.
@@ -61,7 +61,7 @@ Assign a Hardware breakpoint in UART1_ISR and run program. Program execution tim
 
 ‘A’ character from host system using Tera term application. Verify results in ISR.
 
-4. Develop a Communication between two Raayan mini boads using UART6
+4) Develop a Communication between two Raayan mini boads using UART6
 protocol.
 
 The switches (PC8 and PC9) are inputs, LEDs (PA8, PC5) are outputs, and the UART6 is used to
