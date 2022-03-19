@@ -6,7 +6,7 @@
 
 ### 4.3 UART (06/03/2022) ASSIGNMENT 3
 
-1. Experiment 1: USART Polling
+1. USART Polling
 
 Write a pseudo code and Embedded C program to Configure UART1 with 9600 8N1.
 And transmit character ‘A’ and Receive same character using hardware Loop back.
@@ -23,6 +23,55 @@ And transmit character ‘A’ and Receive same character using hardware Loop ba
         USARTDIV = System clock/8*(2-0)*BaudRate = 16000000/16*9600 =
         16000000/(16*9600)=104.1875 ==> 104+0.18==>68(integral part)
 
+2. : Write an Embedded C Program and implement USART Non-Blocking and USART
+TIMEOUT Functions.
+
+USART Rx Functions
+
+        1. UART Rx Blocking function
+        unsigned char USART1_InChar (void);
+        UART1_InChar () function is called a Blocking function because this function continues in block
+        state until data is available in RDR.
+        In this situation microprocessor doesn’t handle any other task, so blocking function is not
+        recommended.
+
+Solution for this problem is to implement Non-Blocking and TIMEOUT function.
+
+        2. UART Rx Non-Blocking function
+        unsigned char USART1_InChar_NonBlock (void);
+        UART1_InChar_NonBlock () function is called a Non-Blocking function because this function fails
+        if data is not available in RDR otherwise data will be stored in global variable.
+
+        3. UART Rx TIMEOUT function
+        int USART1_InChar_TIMEOUT (unsigned int);
+        This function waits for a pre-defined number of iterations mentioned in arguments. If data is
+        not received before the completion of iterations, this function returns -1 to indicate TIMEOUT
+        ERROR, otherwise data will be stored in global variable and return value is zero to indicate
+        SUCCESS.
+
+3. USART RX interrupts
+
+Write a Pseudo code and Embedded C program to USAR1 Configuration using the below
+conditions.
+
+        a. System Clock Initialization to 16MHZ
+        b. 9600 8N1 (1+8+0+1=10 bits)
+
+Assign a Hardware breakpoint in UART1_ISR and run program. Program execution time sends
+
+‘A’ character from host system using Tera term application. Verify results in ISR.
+
+4. Develop a Communication between two Raayan mini boads using UART6
+protocol.
+
+The switches (PC8 and PC9) are inputs, LEDs (PA8, PC5) are outputs, and the UART6 is used to
+
+communicate
+
+### 4.3.1 UART WIFI PROJECT
+
+
+UART Project – Wi-Fi module interface with STM32F401RBT6
 
 
 ### 4.2.1 GPIO MINI PROJECT : LCD INITIALIZATION
