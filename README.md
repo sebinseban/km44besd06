@@ -2,6 +2,48 @@
 
 **Sebin Sebastian's** Lab Assignments Repo
 
+## 5 SHELL SCRIPTING
+
+### 5.1 SHELL SCRIPTING () ASSIGNMENT 1
+
+1. Write shell script that will add two nos, which are supplied as command line argument, and if this two nos are not given show error and its usage
+
+2. Write Script to find out biggest number from given three nos. Nos are supplied as command line arguments. Print error if sufficient arguments are not supplied.
+
+3. Write script to print given number in reverse order, for eg. If no is 123 it must print as 321
+
+4. Write script to determine whether given file exist or not, file name is supplied as command line argument, Also check for sufficient number of command line arguments.
+
+5. How to write script, that will print, Message ""Hello World"", in Bold and Blink effect, and in different Colors like red, brown etc using echo command.
+
+6. Write a shell script that accepts a file name, starting and ending line numbers as arguments and displays all the lines between the given line numbers.
+
+7. Write a shell script that deletes all lines containing a specified word in one or more files supplied as arguments to it.
+
+8. Write a shell script that displays a list of all the files in the current directory to which the user has read, write and execute permissions.
+
+9. Write a shell script that receives any number of file names as arguments checks if every argument supplied is a file or a directory and reports accordingly. Whenever the argument is a file, the number of lines on it is also reported.
+
+10. Write a shell script that accepts a list of file names as its arguments, counts and reports the occurrence of each word that is present in the first argument file on other argument files.
+
+11. Write a shell script to list all of the directory files in a directory.
+
+12. Write a shell script to find factorial of a given integer.
+
+### 5.2 MINI PROJECT  
+
+Write a network monitor application server_monitor.sh which show the below information
+
+        OS name
+        Architecture version
+        Kernel version
+        Internet status
+        IP Address
+        Memory Usage
+        Disk file systems usage
+        system uptime
+
+
 ## 4 EMBEDDED C
 
 ### 4.3 UART (06/03/2022) ASSIGNMENT 3
@@ -187,6 +229,70 @@ should remain ON for the duration switch is kept pressed i.e. RED LED should tur
 13. WAP Swap any two numbers using bitwise operators. How it works?
 
 ## 3 ADVANCED C
+
+### 3.32 FILE HANDLING (25/03/2022) ASSIGNMENT 32
+
+1)keep reading numbers from user, and write those numbers to a file. Once user presses -1, stop reading, and print all the contents of the file. Open the file everytime with previous contents intact (append mode).
+
+2)Open the file  in append mode, and write new numbers to it, and print entire content of the file.
+
+3)Read the contents of a file and copy to another file.
+
+4)Create a new file using contents of two files.(append one file content to another, and write to a third file).
+
+5)Two files data1 and data2 contain sorted list of integers. Write a program to produce a third file data which holds a single,sorted, merged list of these two files. Use command line arguments to specify the file names.
+
+6)Write a program that compares two files and returns 0 if they are equal and 1 if they are not equal.
+
+7)Write a program that reads a file containing integers and appends the sum of all integers at the end.
+
+8)Write a program to write a set of characters to a file, and read and print the contents in reverse.
+
+9)Write a program that opens a file with some number of characters written in it.
+ An integer input is taken. If the input is positive, skip those many characters and print the remaining till end of the file. If the input is negative, then print those man y characters till end of the file.
+
+        eg., file contents :abcdefghijklmnopqrstuvwxyz
+        input number: 15, output: pqrstuvwxyz
+        input number: -10 , output: qrstuvwxyz
+
+10)Write a program, using structures to read details of n students,with details,ID,name,fathername,date of birth and marks, and write those details to a file, one line per student, each detail separated by a comma. The first record must be a Heading. Open the file with .csv extension.
+
+11)Write a program to read the above file and print who is topper.
+
+12)Assume that there is a file with 0 to 1000 numbers. Take input of two integers, and replace the first integer with next.
+        Eg., 365 ,563
+        365 must be replaced everywhere with 563.
+
+13)WAP to take an input string from the user, and delete the given word n number of times from a file.
+
+        Eg., input : world , 5
+Find and delete the word “world” in a file 5 times.
+
+14)read numbers entered by user and write to a file. Open the file and read the numbers and write even numbers to even file and odd numbers to odd file.
+
+### 3.31 RECURSION (22/03/2022) ASSIGNMENT 31
+
+1. Write a recursive function to return the factorial of a number as argument.
+
+2. Write a recursive function to return the nth Fibonacci number.
+
+3. Write a recursive function to reverse a string.
+
+4. Print a string in normal and then reverse, using recursion, without actually modifying the string.
+
+5. Write a recursive function to return the power of a number raised to n( x to the power of n = x * x * x * x....n times)
+
+6. Write a recursive function to count and return the number of digits in a number.
+
+7. Implement string length function using recursion.
+
+8. Write a recursive function that returns the reverse of an integer.
+
+9. WAP to print Binary equivalent of an integer using recursion without using any extra array variable.
+
+10. Print the first n Fibonacci numbers using recursion.
+
+11. Print a single linked list in reverse order without actually reversing it.
 
 ### 3.30 STACK & QUEUE (12/03/2022) ASSIGNMENT 30
 
