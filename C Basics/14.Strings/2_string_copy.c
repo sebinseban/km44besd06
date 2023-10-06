@@ -26,7 +26,7 @@ int main()
     
 }
 
-void strCpy (char s1[], char s2[])
+char * strCpy (char s1[], const char s2[])
 {
     int i = 0; 
     while ( s2[i] != '\0')
